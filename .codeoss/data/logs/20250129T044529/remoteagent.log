@@ -1,0 +1,20 @@
+2025-01-29 04:45:29.215 [info] 
+
+
+
+
+2025-01-29 04:45:29.215 [info] Extension host agent started.
+2025-01-29 04:45:30.050 [info] [127.0.0.1][71129b29][ManagementConnection] New connection established.
+2025-01-29 04:45:30.145 [info] [127.0.0.1][ef8afdcc][ExtensionHostConnection] New connection established.
+2025-01-29 04:45:31.141 [info] [127.0.0.1][ef8afdcc][ExtensionHostConnection] <1218> Launched Extension Host Process.
+2025-01-29 04:59:38.455 [info] [127.0.0.1][ef8afdcc][ExtensionHostConnection] The client has reconnected.
+2025-01-29 04:59:38.591 [info] [127.0.0.1][71129b29][ManagementConnection] The client has reconnected.
+2025-01-29 05:16:42.697 [info] [127.0.0.1][71129b29][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-01-29 05:16:48.646 [info] [127.0.0.1][71129b29][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-01-29 05:16:48.647 [info] [127.0.0.1][ef8afdcc][ExtensionHostConnection] The client has reconnected.
+2025-01-29 05:21:48.806 [info] [127.0.0.1][71129b29][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-01-29 06:09:16.671 [error] [127.0.0.1][71129b29][ManagementConnection] Unknown reconnection token (seen before).
+2025-01-29 06:09:19.284 [info] [127.0.0.1][7c6dd566][ManagementConnection] New connection established.
+2025-01-29 06:09:19.327 [info] [127.0.0.1][75c41ab3][ExtensionHostConnection] New connection established.
+2025-01-29 06:09:19.331 [info] [127.0.0.1][75c41ab3][ExtensionHostConnection] <1927> Launched Extension Host Process.
+2025-01-29 06:14:17.028 [info] [127.0.0.1][ef8afdcc][ExtensionHostConnection] <1218> Extension Host Process exited with code: 0, signal: null.

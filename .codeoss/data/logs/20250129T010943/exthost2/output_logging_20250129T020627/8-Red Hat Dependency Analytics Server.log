@@ -1,0 +1,26 @@
+[Warn  - 2:09:40 AM] Component Analysis Error: Error: Can't continue with analysis - versions mismatch for dependency name Flask, manifest version=3.0.2, installed Version=3.1.0, if you want to allow version mismatch for analysis between installed and requested packages, set environment variable/setting - MATCH_MANIFEST_VERSIONS=false
+Error: LinkageError occurred while loading main class com.redhat.exhort.Main
+	java.lang.UnsupportedClassVersionError: com/redhat/exhort/Main has been compiled by a more recent version of the Java Runtime (class file version 64.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+[Warn  - 2:42:54 AM] Component Analysis Error: Error: Command failed: java -DRHDA_TOKEN=dab8e596-756b-46f7-8d03-6624b6bebd5e -DRHDA_SOURCE=vscode -DEXHORT_SYFT_PATH=syft -DEXHORT_SKOPEO_PATH=skopeo -DEXHORT_DOCKER_PATH=docker -DEXHORT_PODMAN_PATH=podman -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.fabric8-analytics/dist/../javaApiAdapter/exhort-java-api-adapter-1.0-SNAPSHOT-jar-with-dependencies.jar json
+Error: LinkageError occurred while loading main class com.redhat.exhort.Main
+	java.lang.UnsupportedClassVersionError: com/redhat/exhort/Main has been compiled by a more recent version of the Java Runtime (class file version 64.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+
+Error: LinkageError occurred while loading main class com.redhat.exhort.Main
+	java.lang.UnsupportedClassVersionError: com/redhat/exhort/Main has been compiled by a more recent version of the Java Runtime (class file version 64.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+[Warn  - 2:43:04 AM] Component Analysis Error: Error: Command failed: java -DRHDA_TOKEN=dab8e596-756b-46f7-8d03-6624b6bebd5e -DRHDA_SOURCE=vscode -DEXHORT_SYFT_PATH=syft -DEXHORT_SKOPEO_PATH=skopeo -DEXHORT_DOCKER_PATH=docker -DEXHORT_PODMAN_PATH=podman -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.fabric8-analytics/dist/../javaApiAdapter/exhort-java-api-adapter-1.0-SNAPSHOT-jar-with-dependencies.jar json python:3.9
+Error: LinkageError occurred while loading main class com.redhat.exhort.Main
+	java.lang.UnsupportedClassVersionError: com/redhat/exhort/Main has been compiled by a more recent version of the Java Runtime (class file version 64.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+
+Error: LinkageError occurred while loading main class com.redhat.exhort.Main
+	java.lang.UnsupportedClassVersionError: com/redhat/exhort/Main has been compiled by a more recent version of the Java Runtime (class file version 64.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+[Warn  - 2:43:14 AM] Component Analysis Error: Error: Command failed: java -DRHDA_TOKEN=dab8e596-756b-46f7-8d03-6624b6bebd5e -DRHDA_SOURCE=vscode -DEXHORT_SYFT_PATH=syft -DEXHORT_SKOPEO_PATH=skopeo -DEXHORT_DOCKER_PATH=docker -DEXHORT_PODMAN_PATH=podman -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.fabric8-analytics/dist/../javaApiAdapter/exhort-java-api-adapter-1.0-SNAPSHOT-jar-with-dependencies.jar json
+Error: LinkageError occurred while loading main class com.redhat.exhort.Main
+	java.lang.UnsupportedClassVersionError: com/redhat/exhort/Main has been compiled by a more recent version of the Java Runtime (class file version 64.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+
+Error: LinkageError occurred while loading main class com.redhat.exhort.Main
+	java.lang.UnsupportedClassVersionError: com/redhat/exhort/Main has been compiled by a more recent version of the Java Runtime (class file version 64.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+[Warn  - 2:43:16 AM] Component Analysis Error: Error: Command failed: java -DRHDA_TOKEN=dab8e596-756b-46f7-8d03-6624b6bebd5e -DRHDA_SOURCE=vscode -DEXHORT_SYFT_PATH=syft -DEXHORT_SKOPEO_PATH=skopeo -DEXHORT_DOCKER_PATH=docker -DEXHORT_PODMAN_PATH=podman -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.fabric8-analytics/dist/../javaApiAdapter/exhort-java-api-adapter-1.0-SNAPSHOT-jar-with-dependencies.jar json python:3.9
+Error: LinkageError occurred while loading main class com.redhat.exhort.Main
+	java.lang.UnsupportedClassVersionError: com/redhat/exhort/Main has been compiled by a more recent version of the Java Runtime (class file version 64.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+
+[Warn  - 2:57:25 AM] Component Analysis Error: Error: Can't continue with analysis - versions mismatch for dependency name Flask, manifest version=3.0.2, installed Version=3.1.0, if you want to allow version mismatch for analysis between installed and requested packages, set environment variable/setting - MATCH_MANIFEST_VERSIONS=false

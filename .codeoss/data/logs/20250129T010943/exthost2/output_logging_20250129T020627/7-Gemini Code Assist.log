@@ -1,0 +1,101 @@
+I0129 02:06:47.891839    3703 serve.go:43] cloudcode_cli (Jan 21 2025 17:43:36 -0800, cl:718125841 baseline:716751907)
+I0129 02:06:47.891894    3703 serve.go:44] Command line: ["/home/leozhontai561/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0129 02:06:47.894251    3703 life_cycle.go:166] Initializing. Architecture: "amd64", Operating system: "linux"
+I0129 02:06:48.011861    3703 configuration.go:182] product updateChannel will be used
+W0129 02:06:48.011909    3703 configuration.go:792] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W0129 02:06:48.011924    3703 configuration.go:792] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I0129 02:06:48.011942    3703 configuration.go:642] language thresholds: map[]
+I0129 02:06:48.011960    3703 configuration.go:600] dataFileExtensions array: [.csv .tsv .jsonl]
+I0129 02:06:48.011981    3703 configuration.go:845] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00130efb1 StopSequences:map[] DataFilePromptLines:0}
+I0129 02:06:48.012016    3703 configuration.go:845] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00130efc1 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0129 02:06:48.012223    3703 configuration.go:270] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0129 02:06:48.012268    3703 configuration.go:278] Configured settings for cloudCodeOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false}
+I0129 02:06:48.012310    3703 configuration.go:282] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0}
+I0129 02:06:48.012350    3703 configuration.go:284] Configured settings for canCancelRequests: true
+I0129 02:06:48.012414    3703 configuration.go:286] Configured settings for contextPromptOpts: &{Endpoint:}
+W0129 02:06:48.013870    3703 configuration.go:290] Failed to retrieve verboseLogging: configuration value not is not a string: false
+E0129 02:07:20.227119    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 02:07:20.227156    3703 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0129 02:07:20.227166    3703 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+W0129 02:07:20.227179    3703 retention.go:173] Could not get offsets for range in document. range: &{{0 32} {2 42}}, error: invalid column number
+W0129 02:07:20.227217    3703 retention.go:173] Could not get offsets for range in document. range: &{{4 0} {5 34}}, error: invalid column number
+W0129 02:07:20.227224    3703 retention.go:173] Could not get offsets for range in document. range: &{{6 0} {23 26}}, error: invalid column number
+I0129 02:16:48.015060    3703 life_cycle.go:261] codeReportBasicEvery: recomputing codereportbasic metric
+I0129 02:56:48.014265    3703 life_cycle.go:261] codeReportBasicEvery: recomputing codereportbasic metric
+E0129 03:01:02.353650    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353698    3703 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0129 03:01:02.353707    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353716    3703 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0129 03:01:02.353743    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353761    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353773    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353781    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353793    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353801    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353808    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353815    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353824    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353834    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353850    3703 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0129 03:01:02.353858    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353867    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0129 03:01:02.353874    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0129 03:01:02.353881    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0129 03:01:02.353889    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0129 03:01:02.353896    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0129 03:01:02.353903    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0129 03:01:02.353909    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0129 03:01:02.353916    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0129 03:01:02.353923    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0129 03:01:02.353930    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0129 03:01:02.353937    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0129 03:01:02.353943    3703 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0129 03:01:02.353958    3703 retention.go:173] Could not get offsets for range in document. range: &{{2 44} {4 19}}, error: invalid column number
+W0129 03:01:02.353975    3703 retention.go:173] Could not get offsets for range in document. range: &{{8 0} {11 59}}, error: invalid column number
+W0129 03:01:02.353981    3703 retention.go:173] Could not get offsets for range in document. range: &{{14 10} {15 7}}, error: invalid column number
+W0129 03:01:02.353988    3703 retention.go:173] Could not get offsets for range in document. range: &{{16 4} {16 29}}, error: invalid column number
+W0129 03:01:02.353993    3703 retention.go:173] Could not get offsets for range in document. range: &{{17 27} {17 31}}, error: invalid column number
+W0129 03:01:02.353999    3703 retention.go:173] Could not get offsets for range in document. range: &{{18 15} {19 11}}, error: invalid column number
+W0129 03:01:02.354004    3703 retention.go:173] Could not get offsets for range in document. range: &{{19 67} {19 69}}, error: invalid column number
+W0129 03:01:02.354009    3703 retention.go:173] Could not get offsets for range in document. range: &{{19 71} {19 78}}, error: invalid column number
+W0129 03:01:02.354014    3703 retention.go:173] Could not get offsets for range in document. range: &{{22 2} {27 0}}, error: invalid column number
+W0129 03:01:02.354022    3703 retention.go:173] Could not get offsets for range in document. range: &{{29 4} {29 34}}, error: invalid column number
+W0129 03:01:02.354031    3703 retention.go:173] Could not get offsets for range in document. range: &{{31 15} {31 21}}, error: invalid column number
+W0129 03:01:02.354040    3703 retention.go:173] Could not get offsets for range in document. range: &{{33 21} {34 0}}, error: invalid column number
+W0129 03:01:02.354048    3703 retention.go:173] Could not get offsets for range in document. range: &{{39 11} {39 20}}, error: invalid column number
+W0129 03:01:02.354056    3703 retention.go:173] Could not get offsets for range in document. range: &{{41 4} {41 79}}, error: invalid column number
+W0129 03:01:02.354067    3703 retention.go:173] Could not get offsets for range in document. range: &{{43 16} {43 24}}, error: invalid column number
+W0129 03:01:02.354076    3703 retention.go:173] Could not get offsets for range in document. range: &{{43 37} {46 14}}, error: invalid column number
+W0129 03:01:02.354085    3703 retention.go:173] Could not get offsets for range in document. range: &{{47 36} {47 38}}, error: invalid column number
+W0129 03:01:02.354094    3703 retention.go:173] Could not get offsets for range in document. range: &{{48 8} {48 10}}, error: invalid line number
+W0129 03:01:02.354104    3703 retention.go:173] Could not get offsets for range in document. range: &{{49 12} {49 65}}, error: invalid line number
+W0129 03:01:02.354114    3703 retention.go:173] Could not get offsets for range in document. range: &{{50 8} {50 25}}, error: invalid line number
+W0129 03:01:02.354119    3703 retention.go:173] Could not get offsets for range in document. range: &{{52 4} {54 30}}, error: invalid line number
+W0129 03:01:02.354124    3703 retention.go:173] Could not get offsets for range in document. range: &{{55 16} {55 21}}, error: invalid line number
+W0129 03:01:02.354129    3703 retention.go:173] Could not get offsets for range in document. range: &{{55 29} {56 0}}, error: invalid line number
+W0129 03:01:02.354134    3703 retention.go:173] Could not get offsets for range in document. range: &{{56 11} {56 24}}, error: invalid line number
+W0129 03:01:02.354146    3703 retention.go:173] Could not get offsets for range in document. range: &{{56 46} {56 49}}, error: invalid line number
+W0129 03:01:02.354154    3703 retention.go:173] Could not get offsets for range in document. range: &{{56 51} {56 55}}, error: invalid line number
+W0129 03:01:02.354159    3703 retention.go:173] Could not get offsets for range in document. range: &{{58 15} {58 16}}, error: invalid line number
+W0129 03:01:02.354164    3703 retention.go:173] Could not get offsets for range in document. range: &{{58 24} {58 25}}, error: invalid line number
+W0129 03:01:02.354179    3703 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0129 03:01:48.014520    3703 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+[Error - 3:06:51 AM] Server process exited with code 0.
+I0129 03:06:51.960079    4353 serve.go:43] cloudcode_cli (Jan 21 2025 17:43:36 -0800, cl:718125841 baseline:716751907)
+I0129 03:06:51.960130    4353 serve.go:44] Command line: ["/home/leozhontai561/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0129 03:06:51.961811    4353 life_cycle.go:166] Initializing. Architecture: "amd64", Operating system: "linux"
+I0129 03:06:52.069340    4353 configuration.go:182] product updateChannel will be used
+W0129 03:06:52.069383    4353 configuration.go:792] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W0129 03:06:52.069397    4353 configuration.go:792] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I0129 03:06:52.069416    4353 configuration.go:642] language thresholds: map[]
+I0129 03:06:52.069433    4353 configuration.go:600] dataFileExtensions array: [.csv .tsv .jsonl]
+I0129 03:06:52.069455    4353 configuration.go:845] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0010889d1 StopSequences:map[] DataFilePromptLines:0}
+I0129 03:06:52.069493    4353 configuration.go:845] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0010889e1 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0129 03:06:52.069625    4353 configuration.go:270] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0129 03:06:52.069668    4353 configuration.go:278] Configured settings for cloudCodeOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false}
+I0129 03:06:52.069679    4353 configuration.go:282] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0}
+I0129 03:06:52.069720    4353 configuration.go:284] Configured settings for canCancelRequests: true
+I0129 03:06:52.069751    4353 configuration.go:286] Configured settings for contextPromptOpts: &{Endpoint:}
+W0129 03:06:52.070847    4353 configuration.go:290] Failed to retrieve verboseLogging: configuration value not is not a string: false
+I0129 03:07:30.163879    4353 handler.go:159] cancel was requested for: 1, needs to be canceled: false
+I0129 03:07:30.163893    4353 handler.go:163] cancel requested for 1 but not found

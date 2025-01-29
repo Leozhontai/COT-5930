@@ -1,0 +1,49 @@
+2025-01-29 04:45:34.769 [warning] Dir "/home/leozhontai561/.pixi/envs" is not watchable (directory does not exist)
+2025-01-29 04:45:36.061 [info] Python interpreter path: /bin/python
+2025-01-29 04:45:38.493 [info] > pyenv which python
+2025-01-29 04:45:38.493 [info] cwd: .
+2025-01-29 04:45:41.140 [info] Starting Jedi language server for leozhontai561.
+2025-01-29 04:57:45.968 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 17 2025, 18:03:48) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/leozhontai561/helloworld-python/requirements.txt
+2025-01-29 04:57:45.968 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./helloworld-python/requirements.txt
+2025-01-29 04:57:56.336 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 17 2025, 18:03:48) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/leozhontai561/requirements.txt
+2025-01-29 04:57:56.337 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt

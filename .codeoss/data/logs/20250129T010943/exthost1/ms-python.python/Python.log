@@ -1,0 +1,27 @@
+2025-01-29 01:11:53.701 [warning] Dir "/home/leozhontai561/.pixi/envs" is not watchable (directory does not exist)
+2025-01-29 01:11:53.757 [info] Python interpreter path: /bin/python
+2025-01-29 01:11:53.847 [info] > pyenv which python
+2025-01-29 01:11:53.847 [info] cwd: .
+2025-01-29 01:11:55.683 [info] Starting Jedi language server for leozhontai561.
+2025-01-29 01:11:57.910 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 17 2025, 18:03:48) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/leozhontai561/helloworld-python/requirements.txt
+2025-01-29 01:11:57.911 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./helloworld-python/requirements.txt

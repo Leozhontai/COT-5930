@@ -1,0 +1,15 @@
+2025-01-29 16:41:47.293 [info] 
+
+
+
+
+2025-01-29 16:41:47.307 [info] Extension host agent started.
+2025-01-29 16:41:48.988 [info] [127.0.0.1][16e65786][ManagementConnection] New connection established.
+2025-01-29 16:41:49.352 [info] [127.0.0.1][b4563245][ExtensionHostConnection] New connection established.
+2025-01-29 16:41:50.251 [info] [127.0.0.1][b4563245][ExtensionHostConnection] <1211> Launched Extension Host Process.
+2025-01-29 17:13:31.789 [info] [127.0.0.1][b4563245][ExtensionHostConnection] The client has reconnected.
+2025-01-29 17:13:31.931 [info] [127.0.0.1][16e65786][ManagementConnection] The client has reconnected.
+2025-01-29 17:30:38.793 [info] [127.0.0.1][16e65786][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-01-29 17:30:39.007 [info] [127.0.0.1][16e65786][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-01-29 17:30:39.007 [info] [127.0.0.1][b4563245][ExtensionHostConnection] The client has reconnected.
+2025-01-29 17:35:39.116 [info] [127.0.0.1][16e65786][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
