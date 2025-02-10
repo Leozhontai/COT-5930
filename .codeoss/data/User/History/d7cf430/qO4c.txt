@@ -5,4 +5,4 @@ Flask==3.0.2
 gunicorn==21.2.0
 
 # Google Cloud Storage for handling file uploads/downloads
-google-cloud-storage==2.19.0
+google-cloud-storage==2.14.0

@@ -131,3 +131,12 @@ python main.py
 gcloud storage ls gs://cot5930/
 ls
 python main.py
+gcloud run deploy flask-app   --image gcr.io/project-cot5930/flask-app   --platform managed   --allow-unauthenticated
+gcloud container images list --project project-cot5930
+gcloud auth login
+gcloud config set project project-cot5930
+gcloud run deploy
+gcloud run deploy flask-app   --image gcr.io/project-cot5930/flask-app   --platform managed   --region us-east1   --allow-unauthenticated
+gcloud run deploy
+gcloud run deploy --source . -allow-unauthenticated --region us-east1
+gcloud run deploy --source . --allow-unauthenticated --region us-east1
