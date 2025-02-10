@@ -73,3 +73,17 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 2025-01-29 19:37:37.172 [info] > git status -z -uall [54ms]
 2025-01-29 19:37:37.203 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [49ms]
 2025-01-29 19:37:37.636 [info] > git check-ignore -v -z --stdin [4ms]
+2025-01-29 20:54:00.951 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-29 20:54:01.901 [info] > git config --get commit.template [17ms]
+2025-01-29 20:54:01.902 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-29 20:54:01.936 [info] > git status -z -uall [18ms]
+2025-01-29 20:54:01.938 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-29 20:54:01.973 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-29 20:54:01.991 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2025-01-29 20:54:01.991 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-29 20:54:02.008 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2025-01-29 20:54:02.027 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2025-01-29 20:54:02.027 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-29 20:54:02.027 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-29 20:54:02.047 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-01-29 20:54:02.065 [info] > git diff --name-status -z --diff-filter=ADMR dc7b6a483e97ba5c380b0a34dd953fe2ce53b910...refs/remotes/origin/main [4ms]

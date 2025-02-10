@@ -1,0 +1,40 @@
+2025-02-09 22:05:51.628 [warning] Dir "/home/leozhontai561/.pixi/envs" is not watchable (directory does not exist)
+2025-02-09 22:05:51.628 [info] Starting Environment refresh
+2025-02-09 22:05:51.628 [info] Searching for interpreters in posix paths locator
+2025-02-09 22:05:51.628 [info] Searching for pyenv environments
+2025-02-09 22:05:51.628 [info] Searching for conda environments
+2025-02-09 22:05:51.628 [info] Searching for global virtual environments
+2025-02-09 22:05:51.628 [info] Searching for custom virtual environments
+2025-02-09 22:05:51.628 [info] pyenv is not installed
+2025-02-09 22:05:51.628 [info] Finished searching for pyenv environments: 23 milliseconds
+2025-02-09 22:05:51.628 [info] Finished searching for custom virtual envs: 22 milliseconds
+2025-02-09 22:05:51.628 [info] > conda info --json
+2025-02-09 22:05:51.628 [info] > hatch env show --json
+2025-02-09 22:05:51.628 [info] cwd: .
+2025-02-09 22:05:51.628 [info] > pyenv which python
+2025-02-09 22:05:51.628 [info] cwd: .
+2025-02-09 22:05:51.628 [info] Finished searching for global virtual envs: 42 milliseconds
+2025-02-09 22:05:51.629 [info] Found: /bin/python --> /bin/python3.12
+2025-02-09 22:05:51.630 [info] Found: /bin/python3 --> /bin/python3.12
+2025-02-09 22:05:51.630 [info] Found: /bin/python3.12 --> /bin/python3.12
+2025-02-09 22:05:51.648 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2025-02-09 22:05:51.827 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2025-02-09 22:05:51.855 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2025-02-09 22:05:51.890 [info] > ./venv/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-02-09 22:05:51.951 [info] Finished searching for interpreters in posix paths locator: 376 milliseconds
+2025-02-09 22:05:51.951 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-02-09 22:05:55.942 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-02-09 22:05:55.942 [info] Environments refresh paths discovered (event): 4371 milliseconds
+2025-02-09 22:05:55.942 [info] Environments refresh paths discovered: 4371 milliseconds
+2025-02-09 22:05:56.220 [info] Environments refresh finished (event): 4649 milliseconds
+2025-02-09 22:05:56.256 [info] Environment refresh took 4685 milliseconds
+2025-02-09 22:05:56.844 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-02-09 22:05:56.894 [info] Python interpreter path: ./venv/bin/python
+2025-02-09 22:05:59.499 [info] Starting Jedi language server for leozhontai561.
+2025-02-09 22:22:27.969 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/storage.py
+2025-02-09 22:22:32.290 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/storage.py
+2025-02-09 22:24:25.072 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/storage.py
+2025-02-09 22:24:36.763 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/storage.py
+2025-02-09 22:24:43.290 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/storage.py
+2025-02-09 22:26:09.404 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/storage.py
+2025-02-09 22:26:13.650 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/storage.py

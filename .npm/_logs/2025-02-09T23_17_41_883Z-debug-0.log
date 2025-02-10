@@ -7,9 +7,9 @@
 6 silly config load:file:/usr/local/nvm/versions/node/v22.13.1/etc/npmrc
 7 verbose title npm config get prefix
 8 verbose argv "config" "--loglevel" "warn" "get" "prefix"
-9 verbose logfile logs-max:10 dir:/home/leozhontai561/.npm/_logs/2025-01-29T01_09_46_940Z-
-10 verbose logfile /home/leozhontai561/.npm/_logs/2025-01-29T01_09_46_940Z-debug-0.log
-11 silly logfile done cleaning log files
+9 verbose logfile logs-max:10 dir:/home/leozhontai561/.npm/_logs/2025-02-09T23_17_41_883Z-
+10 verbose logfile /home/leozhontai561/.npm/_logs/2025-02-09T23_17_41_883Z-debug-0.log
+11 silly logfile start cleaning logs, removing 16 files
 12 verbose cwd /google/devshell/editor/code-oss-for-cloud-shell
 13 verbose os Linux 6.1.124+
 14 verbose node v22.13.1

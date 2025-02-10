@@ -117,3 +117,17 @@ git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/Leozhontai/COT-5930
 git push -u origin main
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/Leozhontai/COT-5930
+git push -u origin main
+source /home/leozhontai561/venv/bin/activate
+/home/leozhontai561/venv/bin/python /home/leozhontai561/main.py
+python main.py
+ls
+python main.py
+gcloud storage ls gs://cot5930/
+ls
+python main.py
