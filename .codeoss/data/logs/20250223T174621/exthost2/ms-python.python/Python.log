@@ -1,0 +1,10 @@
+2025-02-23 19:32:45.226 [warning] Dir "/home/leozhontai561/.pixi/envs" is not watchable (directory does not exist)
+2025-02-23 19:32:45.295 [info] Python interpreter path: ./venv/bin/python
+2025-02-23 19:32:45.519 [info] > pyenv which python
+2025-02-23 19:32:45.519 [info] cwd: .
+2025-02-23 19:32:49.831 [info] Starting Jedi language server for leozhontai561.
+2025-02-23 19:32:51.514 [info] Send text to terminal: source /home/leozhontai561/venv/bin/activate
+2025-02-23 19:44:56.223 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 19:48:26.560 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 19:52:42.986 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 19:54:59.449 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py

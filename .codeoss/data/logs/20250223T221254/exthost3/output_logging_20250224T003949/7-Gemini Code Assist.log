@@ -1,0 +1,100 @@
+I0224 00:40:05.916066    8611 serve.go:43] cloudcode_cli (Jan 21 2025 17:43:36 -0800, cl:718125841 baseline:716751907)
+I0224 00:40:05.916128    8611 serve.go:44] Command line: ["/home/leozhontai561/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0224 00:40:05.918113    8611 life_cycle.go:166] Initializing. Architecture: "amd64", Operating system: "linux"
+I0224 00:40:06.040881    8611 configuration.go:182] product updateChannel will be used
+W0224 00:40:06.040940    8611 configuration.go:792] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W0224 00:40:06.040956    8611 configuration.go:792] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I0224 00:40:06.040975    8611 configuration.go:642] language thresholds: map[]
+I0224 00:40:06.040996    8611 configuration.go:600] dataFileExtensions array: [.csv .tsv .jsonl]
+I0224 00:40:06.041022    8611 configuration.go:845] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0011072f1 StopSequences:map[] DataFilePromptLines:0}
+I0224 00:40:06.041057    8611 configuration.go:845] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc001107301 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0224 00:40:06.041180    8611 configuration.go:270] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0224 00:40:06.041227    8611 configuration.go:278] Configured settings for cloudCodeOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false}
+I0224 00:40:06.041247    8611 configuration.go:282] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0}
+I0224 00:40:06.041287    8611 configuration.go:284] Configured settings for canCancelRequests: true
+I0224 00:40:06.041298    8611 configuration.go:286] Configured settings for contextPromptOpts: &{Endpoint:}
+W0224 00:40:06.042175    8611 configuration.go:290] Failed to retrieve verboseLogging: configuration value not is not a string: false
+Completion Provider - completion # 0 - New completion requested from language client at position {"line":42,"character":9}, triggerKind=1
+Completion Provider - completion # 0 - Completion result obtained from language client
+Completion Provider - completion # 1 - New completion requested from language client at position {"line":42,"character":8}, triggerKind=1
+Completion Provider - completion # 1 - Completion result obtained from language client
+Completion Provider - completion # 2 - New completion requested from language client at position {"line":42,"character":10}, triggerKind=1
+Completion Provider - completion # 2 - Completion result obtained from language client
+Completion Provider - completion # 3 - New completion requested from language client at position {"line":42,"character":9}, triggerKind=1
+Completion Provider - completion # 3 - Completion result obtained from language client
+Completion Provider - completion # 4 - New completion requested from language client at position {"line":42,"character":8}, triggerKind=1
+Completion Provider - completion # 4 - Completion result obtained from language client
+I0224 00:41:49.216780    8611 handler.go:159] cancel was requested for: 24, needs to be canceled: false
+I0224 00:41:49.216800    8611 handler.go:163] cancel requested for 24 but not found
+Completion Provider - completion # 5 - New completion requested from language client at position {"line":0,"character":1}, triggerKind=1
+Completion Provider - completion # 5 - Completion result obtained from language client
+Completion Provider - completion # 6 - New completion requested from language client at position {"line":0,"character":1}, triggerKind=1
+Completion Provider - completion # 6 - Completion result obtained from language client
+Completion Provider - completion # 7 - New completion requested from language client at position {"line":0,"character":0}, triggerKind=1
+Completion Provider - completion # 7 - Completion result obtained from language client
+Completion Provider - completion # 8 - New completion requested from language client at position {"line":154,"character":0}, triggerKind=1
+Completion Provider - completion # 8 - Completion result obtained from language client
+I0224 00:48:06.043395    8611 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+I0224 00:49:06.043189    8611 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+I0224 00:50:06.042764    8611 life_cycle.go:261] codeReportBasicEvery: recomputing codereportbasic metric
+W0224 00:51:39.385837    8611 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 00:52:06.043374    8611 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+I0224 00:53:06.042693    8611 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 00:56:39.343546    8611 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 00:59:53.838877    8611 handler.go:159] cancel was requested for: 78, needs to be canceled: false
+I0224 00:59:53.838899    8611 handler.go:163] cancel requested for 78 but not found
+I0224 00:59:53.838924    8611 handler.go:159] cancel was requested for: 79, needs to be canceled: false
+I0224 00:59:53.838932    8611 handler.go:163] cancel requested for 79 but not found
+I0224 00:59:53.838954    8611 handler.go:159] cancel was requested for: 80, needs to be canceled: false
+I0224 00:59:53.838962    8611 handler.go:163] cancel requested for 80 but not found
+W0224 00:59:53.841202    8611 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid column number
+I0224 00:59:53.864836    8611 handler.go:159] cancel was requested for: 81, needs to be canceled: false
+I0224 00:59:53.864859    8611 handler.go:163] cancel requested for 81 but not found
+I0224 00:59:53.864909    8611 handler.go:159] cancel was requested for: 82, needs to be canceled: false
+I0224 00:59:53.864915    8611 handler.go:163] cancel requested for 82 but not found
+I0224 00:59:53.864936    8611 handler.go:159] cancel was requested for: 83, needs to be canceled: false
+I0224 00:59:53.864943    8611 handler.go:163] cancel requested for 83 but not found
+I0224 00:59:53.864963    8611 handler.go:159] cancel was requested for: 85, needs to be canceled: false
+I0224 00:59:53.864971    8611 handler.go:163] cancel requested for 85 but not found
+I0224 00:59:53.864989    8611 handler.go:159] cancel was requested for: 86, needs to be canceled: false
+I0224 00:59:53.865005    8611 handler.go:163] cancel requested for 86 but not found
+I0224 00:59:53.865023    8611 handler.go:159] cancel was requested for: 87, needs to be canceled: false
+I0224 00:59:53.865030    8611 handler.go:163] cancel requested for 87 but not found
+I0224 00:59:53.865048    8611 handler.go:159] cancel was requested for: 88, needs to be canceled: false
+I0224 00:59:53.865054    8611 handler.go:163] cancel requested for 88 but not found
+I0224 00:59:53.865072    8611 handler.go:159] cancel was requested for: 89, needs to be canceled: false
+I0224 00:59:53.865079    8611 handler.go:163] cancel requested for 89 but not found
+I0224 00:59:53.865102    8611 handler.go:159] cancel was requested for: 90, needs to be canceled: false
+I0224 00:59:53.865108    8611 handler.go:163] cancel requested for 90 but not found
+I0224 00:59:53.865129    8611 handler.go:159] cancel was requested for: 91, needs to be canceled: false
+I0224 00:59:53.865136    8611 handler.go:163] cancel requested for 91 but not found
+I0224 00:59:53.867455    8611 handler.go:159] cancel was requested for: 92, needs to be canceled: false
+I0224 00:59:53.867473    8611 handler.go:163] cancel requested for 92 but not found
+I0224 00:59:53.867500    8611 handler.go:159] cancel was requested for: 93, needs to be canceled: false
+I0224 00:59:53.867508    8611 handler.go:163] cancel requested for 93 but not found
+I0224 00:59:53.867526    8611 handler.go:159] cancel was requested for: 94, needs to be canceled: false
+I0224 00:59:53.867534    8611 handler.go:163] cancel requested for 94 but not found
+I0224 00:59:53.867553    8611 handler.go:159] cancel was requested for: 95, needs to be canceled: false
+I0224 00:59:53.867560    8611 handler.go:163] cancel requested for 95 but not found
+I0224 00:59:53.867579    8611 handler.go:159] cancel was requested for: 96, needs to be canceled: false
+I0224 00:59:53.867586    8611 handler.go:163] cancel requested for 96 but not found
+I0224 00:59:53.867604    8611 handler.go:159] cancel was requested for: 97, needs to be canceled: false
+I0224 00:59:53.867611    8611 handler.go:163] cancel requested for 97 but not found
+I0224 00:59:53.867634    8611 handler.go:159] cancel was requested for: 98, needs to be canceled: false
+I0224 00:59:53.867640    8611 handler.go:163] cancel requested for 98 but not found
+I0224 00:59:53.867658    8611 handler.go:159] cancel was requested for: 99, needs to be canceled: false
+I0224 00:59:53.867677    8611 handler.go:163] cancel requested for 99 but not found
+I0224 00:59:53.867698    8611 handler.go:159] cancel was requested for: 100, needs to be canceled: false
+I0224 00:59:53.867705    8611 handler.go:163] cancel requested for 100 but not found
+I0224 00:59:53.867743    8611 handler.go:159] cancel was requested for: 101, needs to be canceled: false
+I0224 00:59:53.867751    8611 handler.go:163] cancel requested for 101 but not found
+I0224 00:59:53.867769    8611 handler.go:159] cancel was requested for: 102, needs to be canceled: false
+I0224 00:59:53.867776    8611 handler.go:163] cancel requested for 102 but not found
+I0224 00:59:53.867796    8611 handler.go:159] cancel was requested for: 103, needs to be canceled: false
+I0224 00:59:53.867802    8611 handler.go:163] cancel requested for 103 but not found
+I0224 00:59:53.867822    8611 handler.go:159] cancel was requested for: 104, needs to be canceled: false
+I0224 00:59:53.867829    8611 handler.go:163] cancel requested for 104 but not found
+I0224 00:59:53.867852    8611 handler.go:159] cancel was requested for: 105, needs to be canceled: false
+I0224 00:59:53.867858    8611 handler.go:163] cancel requested for 105 but not found
+I0224 01:00:06.043285    8611 life_cycle.go:261] codeReportBasicEvery: recomputing codereportbasic metric
+I0224 01:02:06.043381    8611 life_cycle.go:297] codeReportEvery: recomputing codereport metric

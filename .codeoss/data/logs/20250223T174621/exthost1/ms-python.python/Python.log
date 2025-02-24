@@ -1,0 +1,53 @@
+2025-02-23 17:46:26.630 [warning] Dir "/home/leozhontai561/.pixi/envs" is not watchable (directory does not exist)
+2025-02-23 17:46:26.723 [info] Python interpreter path: ./venv/bin/python
+2025-02-23 17:46:27.202 [info] > pyenv which python
+2025-02-23 17:46:27.202 [info] cwd: .
+2025-02-23 17:46:31.747 [info] Starting Jedi language server for leozhontai561.
+2025-02-23 17:50:39.064 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 17:55:52.316 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 17:56:17.598 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 17:56:21.596 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 17:59:08.465 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 17:59:29.235 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 18:03:27.051 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 18:03:28.127 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 18:09:57.591 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 18:10:07.437 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 18:10:09.996 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 18:10:19.937 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 18:35:39.126 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 18:36:57.105 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 18:39:52.225 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 18:42:27.692 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 18:53:16.693 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 18:56:26.140 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 18:57:21.095 [info] CreateEnv Trigger - Skipping for /home/leozhontai561/main.py
+2025-02-23 18:57:21.130 [info] Send text to terminal: source /home/leozhontai561/venv/bin/activate
+2025-02-23 18:57:22.132 [info] Send text to terminal: /home/leozhontai561/venv/bin/python /home/leozhontai561/main.py
+2025-02-23 19:08:17.368 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-23 19:09:19.927 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 19:11:04.786 [info] Running installed packages checker:  {
+  id: '/home/leozhontai561/venv/bin/python',
+  sysPrefix: '/home/leozhontai561/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/home/leozhontai561/venv',
+  path: '/home/leozhontai561/venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 17 2025, 18:03:48) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv': venv)",
+  type: 'Virtual'
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/leozhontai561/requirements.txt
+2025-02-23 19:11:04.786 [info] > ./venv/bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-02-23 19:20:24.405 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 19:23:01.156 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-23 19:23:28.859 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py

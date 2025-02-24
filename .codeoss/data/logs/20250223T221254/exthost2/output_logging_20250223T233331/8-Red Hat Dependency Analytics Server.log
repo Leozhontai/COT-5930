@@ -1,0 +1,18 @@
+[Warn  - 11:36:51 PM] Component Analysis Error: Error: Can't continue with analysis - versions mismatch for dependency name Flask, manifest version=3.0.2, installed Version=3.1.0, if you want to allow version mismatch for analysis between installed and requested packages, set environment variable/setting - MATCH_MANIFEST_VERSIONS=false
+[Warn  - 11:49:31 PM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 11:52:36 PM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 11:55:43 PM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 11:58:49 PM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 12:01:57 AM] Component Analysis Error: Error: Package name=>1.2.0 is not installed in your python environment,
+		                         either install it ( better to install requirements.txt altogether) or set
+		                         the setting EXHORT_PYTHON_VIRTUAL_ENV to true to automatically install
+		                          it in virtual environment (please note that this may slow down the analysis) 
+[Warn  - 12:01:57 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 12:05:03 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 12:08:09 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 12:14:27 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 12:17:33 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 12:20:43 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 12:23:51 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 12:27:00 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established
+[Warn  - 12:30:05 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Client network socket disconnected before secure TLS connection was established

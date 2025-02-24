@@ -1,0 +1,6 @@
+2025-02-10 01:58:54.820 [warning] Dir "/home/leozhontai561/.pixi/envs" is not watchable (directory does not exist)
+2025-02-10 01:58:54.820 [info] Python interpreter path: ./venv/bin/python
+2025-02-10 01:58:54.856 [info] > pyenv which python
+2025-02-10 01:58:54.856 [info] cwd: .
+2025-02-10 01:58:58.902 [info] Send text to terminal: source /home/leozhontai561/venv/bin/activate
+2025-02-10 01:59:03.766 [info] Starting Jedi language server for leozhontai561.

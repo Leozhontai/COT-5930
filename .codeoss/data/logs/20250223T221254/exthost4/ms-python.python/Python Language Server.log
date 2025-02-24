@@ -1,0 +1,4 @@
+2025-02-24 01:06:14.530 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "15"
+
+2025-02-24 01:39:26.444 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "164"
+

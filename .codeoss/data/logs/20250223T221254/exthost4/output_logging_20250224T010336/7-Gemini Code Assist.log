@@ -1,0 +1,781 @@
+I0224 01:03:58.134252   11295 serve.go:43] cloudcode_cli (Jan 21 2025 17:43:36 -0800, cl:718125841 baseline:716751907)
+I0224 01:03:58.134299   11295 serve.go:44] Command line: ["/home/leozhontai561/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0224 01:03:58.136081   11295 life_cycle.go:166] Initializing. Architecture: "amd64", Operating system: "linux"
+I0224 01:03:58.269998   11295 configuration.go:182] product updateChannel will be used
+W0224 01:03:58.270057   11295 configuration.go:792] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W0224 01:03:58.270073   11295 configuration.go:792] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I0224 01:03:58.270091   11295 configuration.go:642] language thresholds: map[]
+I0224 01:03:58.270109   11295 configuration.go:600] dataFileExtensions array: [.csv .tsv .jsonl]
+I0224 01:03:58.270131   11295 configuration.go:845] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00150b021 StopSequences:map[] DataFilePromptLines:0}
+I0224 01:03:58.270165   11295 configuration.go:845] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00150b031 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0224 01:03:58.270326   11295 configuration.go:270] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0224 01:03:58.270377   11295 configuration.go:278] Configured settings for cloudCodeOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false}
+I0224 01:03:58.270389   11295 configuration.go:282] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0}
+I0224 01:03:58.270438   11295 configuration.go:284] Configured settings for canCancelRequests: true
+I0224 01:03:58.270449   11295 configuration.go:286] Configured settings for contextPromptOpts: &{Endpoint:}
+W0224 01:03:58.271303   11295 configuration.go:290] Failed to retrieve verboseLogging: configuration value not is not a string: false
+E0224 01:05:07.596597   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:05:07.596654   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:05:07.596752   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+W0224 01:05:07.596795   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 0} {28 10}}, error: invalid column number
+W0224 01:05:07.596833   11295 retention.go:173] Could not get offsets for range in document. range: &{{31 8} {35 52}}, error: invalid column number
+W0224 01:05:07.596842   11295 retention.go:173] Could not get offsets for range in document. range: &{{42 10} {45 59}}, error: invalid column number
+I0224 01:05:08.097693   11295 handler.go:159] cancel was requested for: 4, needs to be canceled: false
+I0224 01:05:08.097735   11295 handler.go:163] cancel requested for 4 but not found
+I0224 01:05:58.271600   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+I0224 01:06:10.419504   11295 handler.go:159] cancel was requested for: 8, needs to be canceled: false
+I0224 01:06:10.419532   11295 handler.go:163] cancel requested for 8 but not found
+W0224 01:06:13.471296   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 0} {28 10}}, error: invalid column number
+W0224 01:06:13.471343   11295 retention.go:173] Could not get offsets for range in document. range: &{{31 8} {35 52}}, error: invalid column number
+W0224 01:06:13.471357   11295 retention.go:173] Could not get offsets for range in document. range: &{{42 10} {45 59}}, error: invalid column number
+E0224 01:06:13.475813   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:06:13.475860   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:06:13.475937   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:06:13.475961   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:06:13.476034   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:06:13.476076   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:06:13.476164   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:06:13.476213   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+W0224 01:06:13.476264   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 0} {28 10}}, error: invalid column number
+W0224 01:06:13.476288   11295 retention.go:173] Could not get offsets for range in document. range: &{{31 8} {35 52}}, error: invalid column number
+W0224 01:06:13.476299   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 30} {39 41}}, error: invalid column number
+W0224 01:06:13.476308   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 43} {39 48}}, error: invalid column number
+W0224 01:06:13.476319   11295 retention.go:173] Could not get offsets for range in document. range: &{{42 10} {45 59}}, error: invalid column number
+W0224 01:06:13.476328   11295 retention.go:173] Could not get offsets for range in document. range: &{{48 8} {48 43}}, error: invalid column number
+W0224 01:06:13.476337   11295 retention.go:173] Could not get offsets for range in document. range: &{{55 10} {55 16}}, error: invalid column number
+W0224 01:06:13.476346   11295 retention.go:173] Could not get offsets for range in document. range: &{{61 43} {61 50}}, error: invalid column number
+W0224 01:06:13.476385   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:06:58.271793   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:10:41.082943   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 0} {28 10}}, error: invalid column number
+W0224 01:10:41.082991   11295 retention.go:173] Could not get offsets for range in document. range: &{{31 8} {35 52}}, error: invalid column number
+W0224 01:10:41.083001   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 30} {39 41}}, error: invalid column number
+W0224 01:10:41.083010   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 43} {39 48}}, error: invalid column number
+W0224 01:10:41.083021   11295 retention.go:173] Could not get offsets for range in document. range: &{{42 10} {45 59}}, error: invalid column number
+W0224 01:10:41.083032   11295 retention.go:173] Could not get offsets for range in document. range: &{{48 8} {48 43}}, error: invalid column number
+W0224 01:10:41.083044   11295 retention.go:173] Could not get offsets for range in document. range: &{{55 10} {55 16}}, error: invalid column number
+W0224 01:10:41.083053   11295 retention.go:173] Could not get offsets for range in document. range: &{{61 43} {61 50}}, error: invalid column number
+E0224 01:10:41.086737   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:10:41.086776   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:10:41.086888   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:10:41.086916   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:10:41.086995   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:10:41.087151   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:10:41.087217   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+W0224 01:10:41.087259   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 0} {28 10}}, error: invalid column number
+W0224 01:10:41.087278   11295 retention.go:173] Could not get offsets for range in document. range: &{{31 8} {35 52}}, error: invalid column number
+W0224 01:10:41.087291   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 40} {39 52}}, error: invalid column number
+W0224 01:10:41.087300   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 54} {39 59}}, error: invalid column number
+W0224 01:10:41.087309   11295 retention.go:173] Could not get offsets for range in document. range: &{{42 10} {45 59}}, error: invalid column number
+W0224 01:10:41.087319   11295 retention.go:173] Could not get offsets for range in document. range: &{{65 10} {65 16}}, error: invalid column number
+W0224 01:10:41.087327   11295 retention.go:173] Could not get offsets for range in document. range: &{{71 43} {71 50}}, error: invalid column number
+I0224 01:10:58.271777   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:12:00.948054   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 0} {28 10}}, error: invalid column number
+W0224 01:12:00.948104   11295 retention.go:173] Could not get offsets for range in document. range: &{{31 8} {35 52}}, error: invalid column number
+W0224 01:12:00.948118   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 40} {39 52}}, error: invalid column number
+W0224 01:12:00.948129   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 54} {39 59}}, error: invalid column number
+W0224 01:12:00.948140   11295 retention.go:173] Could not get offsets for range in document. range: &{{42 10} {45 59}}, error: invalid column number
+W0224 01:12:00.948152   11295 retention.go:173] Could not get offsets for range in document. range: &{{65 10} {65 16}}, error: invalid column number
+W0224 01:12:00.948162   11295 retention.go:173] Could not get offsets for range in document. range: &{{71 43} {71 50}}, error: invalid column number
+E0224 01:12:00.948498   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:12:00.948533   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:12:00.948678   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:12:00.948737   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:12:00.948839   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:12:00.949006   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:12:00.949059   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+W0224 01:12:00.949120   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 0} {28 10}}, error: invalid column number
+W0224 01:12:00.949136   11295 retention.go:173] Could not get offsets for range in document. range: &{{31 8} {35 52}}, error: invalid column number
+W0224 01:12:00.949147   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 40} {39 52}}, error: invalid column number
+W0224 01:12:00.949157   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 54} {39 59}}, error: invalid column number
+W0224 01:12:00.949167   11295 retention.go:173] Could not get offsets for range in document. range: &{{42 10} {45 59}}, error: invalid column number
+W0224 01:12:00.949179   11295 retention.go:173] Could not get offsets for range in document. range: &{{65 10} {65 16}}, error: invalid column number
+W0224 01:12:00.949189   11295 retention.go:173] Could not get offsets for range in document. range: &{{71 43} {71 50}}, error: invalid column number
+I0224 01:12:58.272388   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+I0224 01:13:58.272512   11295 life_cycle.go:261] codeReportBasicEvery: recomputing codereportbasic metric
+W0224 01:19:37.121351   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 0} {28 10}}, error: invalid column number
+W0224 01:19:37.121397   11295 retention.go:173] Could not get offsets for range in document. range: &{{31 8} {35 52}}, error: invalid column number
+W0224 01:19:37.121412   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 40} {39 52}}, error: invalid column number
+W0224 01:19:37.121424   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 54} {39 59}}, error: invalid column number
+W0224 01:19:37.121432   11295 retention.go:173] Could not get offsets for range in document. range: &{{42 10} {45 59}}, error: invalid column number
+W0224 01:19:37.121442   11295 retention.go:173] Could not get offsets for range in document. range: &{{65 10} {65 16}}, error: invalid column number
+W0224 01:19:37.121450   11295 retention.go:173] Could not get offsets for range in document. range: &{{71 43} {71 50}}, error: invalid column number
+E0224 01:19:37.121749   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:19:37.121787   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:19:37.121930   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:19:37.121961   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:19:37.122058   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:19:37.122229   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:19:37.122290   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+W0224 01:19:37.122335   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 0} {28 10}}, error: invalid column number
+W0224 01:19:37.122350   11295 retention.go:173] Could not get offsets for range in document. range: &{{31 8} {35 52}}, error: invalid column number
+W0224 01:19:37.122360   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 40} {39 52}}, error: invalid column number
+W0224 01:19:37.122369   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 54} {39 59}}, error: invalid column number
+W0224 01:19:37.122378   11295 retention.go:173] Could not get offsets for range in document. range: &{{42 10} {45 59}}, error: invalid column number
+W0224 01:19:37.122390   11295 retention.go:173] Could not get offsets for range in document. range: &{{65 10} {65 16}}, error: invalid column number
+W0224 01:19:37.122399   11295 retention.go:173] Could not get offsets for range in document. range: &{{71 43} {71 50}}, error: invalid column number
+W0224 01:19:37.122441   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:19:58.272416   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:23:03.273425   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 0} {28 10}}, error: invalid column number
+W0224 01:23:03.273476   11295 retention.go:173] Could not get offsets for range in document. range: &{{31 8} {35 52}}, error: invalid column number
+W0224 01:23:03.273488   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 40} {39 52}}, error: invalid column number
+W0224 01:23:03.273497   11295 retention.go:173] Could not get offsets for range in document. range: &{{39 54} {39 59}}, error: invalid column number
+W0224 01:23:03.273588   11295 retention.go:173] Could not get offsets for range in document. range: &{{42 10} {45 59}}, error: invalid column number
+W0224 01:23:03.273608   11295 retention.go:173] Could not get offsets for range in document. range: &{{65 10} {65 16}}, error: invalid column number
+W0224 01:23:03.273618   11295 retention.go:173] Could not get offsets for range in document. range: &{{71 43} {71 50}}, error: invalid column number
+E0224 01:23:03.279183   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:23:03.279242   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:23:03.279258   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:23:03.279294   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:23:03.279357   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:23:03.279371   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:23:03.279386   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:23:03.279418   11295 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:23:03.279433   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:23:03.279459   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:23:03.279474   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:23:03.279509   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:23:03.279575   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:23:03.279608   11295 retention.go:173] Could not get offsets for range in document. range: &{{19 0} {23 10}}, error: invalid column number
+W0224 01:23:03.279631   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 34} {24 41}}, error: invalid column number
+W0224 01:23:03.279641   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 43} {24 48}}, error: invalid column number
+W0224 01:23:03.279651   11295 retention.go:173] Could not get offsets for range in document. range: &{{27 10} {30 59}}, error: invalid column number
+W0224 01:23:03.279661   11295 retention.go:173] Could not get offsets for range in document. range: &{{40 41} {40 74}}, error: invalid column number
+W0224 01:23:03.279670   11295 retention.go:173] Could not get offsets for range in document. range: &{{41 10} {41 16}}, error: invalid column number
+W0224 01:23:03.279679   11295 retention.go:173] Could not get offsets for range in document. range: &{{41 26} {41 32}}, error: invalid column number
+W0224 01:23:03.279687   11295 retention.go:173] Could not get offsets for range in document. range: &{{46 8} {46 39}}, error: invalid column number
+W0224 01:23:03.279696   11295 retention.go:173] Could not get offsets for range in document. range: &{{47 43} {47 50}}, error: invalid column number
+W0224 01:23:03.279704   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 47} {51 2}}, error: invalid column number
+W0224 01:23:03.279729   11295 retention.go:173] Could not get offsets for range in document. range: &{{53 27} {54 0}}, error: invalid column number
+W0224 01:23:03.279738   11295 retention.go:173] Could not get offsets for range in document. range: &{{54 53} {54 71}}, error: invalid column number
+W0224 01:23:03.279747   11295 retention.go:173] Could not get offsets for range in document. range: &{{61 43} {61 50}}, error: invalid line number
+W0224 01:23:03.279782   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:23:58.271943   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+E0224 01:25:44.815193   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+W0224 01:25:44.815292   11295 retention.go:173] Could not get offsets for range in document. range: &{{38 44} {38 53}}, error: invalid column number
+W0224 01:25:44.815372   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:25:58.272284   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:26:01.960882   11295 retention.go:173] Could not get offsets for range in document. range: &{{19 0} {23 10}}, error: invalid column number
+W0224 01:26:01.960928   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 34} {24 41}}, error: invalid column number
+W0224 01:26:01.960942   11295 retention.go:173] Could not get offsets for range in document. range: &{{24 43} {24 48}}, error: invalid column number
+W0224 01:26:01.960953   11295 retention.go:173] Could not get offsets for range in document. range: &{{27 10} {30 59}}, error: invalid column number
+W0224 01:26:01.960964   11295 retention.go:173] Could not get offsets for range in document. range: &{{40 41} {40 74}}, error: invalid column number
+W0224 01:26:01.960974   11295 retention.go:173] Could not get offsets for range in document. range: &{{41 10} {41 16}}, error: invalid column number
+W0224 01:26:01.960983   11295 retention.go:173] Could not get offsets for range in document. range: &{{41 26} {41 32}}, error: invalid column number
+W0224 01:26:01.960994   11295 retention.go:173] Could not get offsets for range in document. range: &{{46 8} {46 39}}, error: invalid column number
+W0224 01:26:01.961007   11295 retention.go:173] Could not get offsets for range in document. range: &{{47 43} {47 50}}, error: invalid column number
+W0224 01:26:01.961017   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 47} {51 2}}, error: invalid column number
+W0224 01:26:01.961026   11295 retention.go:173] Could not get offsets for range in document. range: &{{53 27} {54 0}}, error: invalid column number
+W0224 01:26:01.961035   11295 retention.go:173] Could not get offsets for range in document. range: &{{54 53} {54 71}}, error: invalid column number
+W0224 01:26:01.961044   11295 retention.go:173] Could not get offsets for range in document. range: &{{61 43} {61 50}}, error: invalid line number
+E0224 01:26:01.961206   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:26:01.961233   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 43} {50 50}}, error: invalid line number
+W0224 01:26:01.961263   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:26:58.272286   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:28:10.214725   11295 retention.go:173] Could not get offsets for range in document. range: &{{38 44} {38 53}}, error: invalid column number
+W0224 01:28:47.458753   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 43} {50 50}}, error: invalid line number
+E0224 01:28:47.459011   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:28:47.459041   11295 retention.go:173] Could not get offsets for range in document. range: &{{45 43} {45 50}}, error: invalid line number
+W0224 01:28:47.459073   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:28:58.272333   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:30:47.609146   11295 retention.go:173] Could not get offsets for range in document. range: &{{45 43} {45 50}}, error: invalid line number
+E0224 01:30:47.609351   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:30:47.609378   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 43} {50 50}}, error: invalid line number
+W0224 01:30:47.781950   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 43} {50 50}}, error: invalid line number
+E0224 01:30:47.782210   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:30:47.782268   11295 retention.go:173] Could not get offsets for range in document. range: &{{61 43} {61 50}}, error: invalid line number
+W0224 01:30:47.976038   11295 retention.go:173] Could not get offsets for range in document. range: &{{61 43} {61 50}}, error: invalid line number
+E0224 01:30:47.980965   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:30:47.981020   11295 retention.go:173] Could not get offsets for range in document. range: &{{85 43} {85 50}}, error: invalid line number
+I0224 01:30:58.272516   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+I0224 01:33:58.271549   11295 life_cycle.go:261] codeReportBasicEvery: recomputing codereportbasic metric
+I0224 01:38:58.272274   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:39:21.042946   11295 retention.go:173] Could not get offsets for range in document. range: &{{85 43} {85 50}}, error: invalid line number
+E0224 01:39:21.043400   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:39:21.043440   11295 retention.go:173] Could not get offsets for range in document. range: &{{86 43} {86 50}}, error: invalid line number
+I0224 01:39:58.271606   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:41:09.290230   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+W0224 01:41:36.937101   11295 retention.go:173] Could not get offsets for range in document. range: &{{86 43} {86 50}}, error: invalid line number
+E0224 01:41:36.937342   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:41:36.937452   11295 retention.go:173] Could not get offsets for range in document. range: &{{44 43} {44 50}}, error: invalid line number
+W0224 01:41:36.937552   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:41:58.271759   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:42:25.962808   11295 retention.go:173] Could not get offsets for range in document. range: &{{44 43} {44 50}}, error: invalid line number
+E0224 01:42:25.963085   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:42:25.963126   11295 retention.go:173] Could not get offsets for range in document. range: &{{86 43} {86 50}}, error: invalid line number
+W0224 01:42:26.160156   11295 retention.go:173] Could not get offsets for range in document. range: &{{86 43} {86 50}}, error: invalid line number
+E0224 01:42:26.160492   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:42:26.160546   11295 retention.go:173] Could not get offsets for range in document. range: &{{85 43} {85 50}}, error: invalid line number
+W0224 01:42:26.160593   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:42:58.271596   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:43:53.435487   11295 retention.go:173] Could not get offsets for range in document. range: &{{85 43} {85 50}}, error: invalid line number
+E0224 01:43:53.435751   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:43:53.435779   11295 retention.go:173] Could not get offsets for range in document. range: &{{52 43} {52 50}}, error: invalid line number
+W0224 01:43:53.435814   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:43:58.271810   11295 life_cycle.go:261] codeReportBasicEvery: recomputing codereportbasic metric
+I0224 01:43:58.271847   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:46:28.197232   11295 retention.go:173] Could not get offsets for range in document. range: &{{52 43} {52 50}}, error: invalid line number
+E0224 01:46:28.197795   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:46:28.197838   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 43} {50 50}}, error: invalid line number
+W0224 01:46:28.197873   11295 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:46:58.272098   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:48:54.735115   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 43} {50 50}}, error: invalid line number
+E0224 01:48:54.735465   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:48:54.735499   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 43} {50 50}}, error: invalid line number
+I0224 01:48:58.271565   11295 life_cycle.go:297] codeReportEvery: recomputing codereport metric
+W0224 01:49:14.370121   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 43} {50 50}}, error: invalid line number
+E0224 01:49:14.370401   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:49:14.370432   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 43} {50 50}}, error: invalid line number
+W0224 01:49:14.590326   11295 retention.go:173] Could not get offsets for range in document. range: &{{50 43} {50 50}}, error: invalid line number
+E0224 01:49:14.590781   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:49:14.590819   11295 retention.go:173] Could not get offsets for range in document. range: &{{52 43} {52 50}}, error: invalid line number
+W0224 01:49:14.767333   11295 retention.go:173] Could not get offsets for range in document. range: &{{52 43} {52 50}}, error: invalid line number
+E0224 01:49:14.767631   11295 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:49:14.767671   11295 retention.go:173] Could not get offsets for range in document. range: &{{85 43} {85 50}}, error: invalid line number
+[Error - 1:49:46 AM] Server process exited with code 0.
+I0224 01:49:46.351964   14070 serve.go:43] cloudcode_cli (Jan 21 2025 17:43:36 -0800, cl:718125841 baseline:716751907)
+I0224 01:49:46.352692   14070 serve.go:44] Command line: ["/home/leozhontai561/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I0224 01:49:46.355528   14070 life_cycle.go:166] Initializing. Architecture: "amd64", Operating system: "linux"
+I0224 01:49:46.540935   14070 configuration.go:182] product updateChannel will be used
+W0224 01:49:46.540978   14070 configuration.go:792] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W0224 01:49:46.540991   14070 configuration.go:792] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I0224 01:49:46.541029   14070 configuration.go:642] language thresholds: map[]
+I0224 01:49:46.541046   14070 configuration.go:600] dataFileExtensions array: [.csv .tsv .jsonl]
+I0224 01:49:46.541146   14070 configuration.go:845] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00188f231 StopSequences:map[] DataFilePromptLines:0}
+I0224 01:49:46.541194   14070 configuration.go:845] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc00188f241 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0224 01:49:46.541494   14070 configuration.go:270] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0224 01:49:46.541559   14070 configuration.go:278] Configured settings for cloudCodeOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false}
+I0224 01:49:46.541571   14070 configuration.go:282] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0}
+I0224 01:49:46.541638   14070 configuration.go:284] Configured settings for canCancelRequests: true
+I0224 01:49:46.541649   14070 configuration.go:286] Configured settings for contextPromptOpts: &{Endpoint:}
+W0224 01:49:46.542466   14070 configuration.go:290] Failed to retrieve verboseLogging: configuration value not is not a string: false
+I0224 01:49:46.581462   14070 handler.go:159] cancel was requested for: 1, needs to be canceled: false
+I0224 01:49:46.581483   14070 handler.go:163] cancel requested for 1 but not found
+W0224 01:49:56.127482   14070 server.go:633] unknown method "$/setTrace"
+I0224 01:49:56.141318   14070 configuration.go:182] product updateChannel will be used
+W0224 01:49:56.141363   14070 configuration.go:792] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W0224 01:49:56.141377   14070 configuration.go:792] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I0224 01:49:56.141398   14070 configuration.go:642] language thresholds: map[]
+I0224 01:49:56.141416   14070 configuration.go:600] dataFileExtensions array: [.csv .tsv .jsonl]
+I0224 01:49:56.141438   14070 configuration.go:845] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000a82511 StopSequences:map[] DataFilePromptLines:0}
+I0224 01:49:56.141482   14070 configuration.go:845] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000a82521 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0224 01:49:56.141536   14070 configuration.go:270] Configured settings for atlasOpts: {"Project":"project-cot5930","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0224 01:49:56.141554   14070 configuration.go:278] Configured settings for cloudCodeOpts: {"Project":"project-cot5930","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false}
+I0224 01:49:56.141564   14070 configuration.go:282] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:0 raglTopKDocFilesToInclude:0}
+I0224 01:49:56.141617   14070 configuration.go:284] Configured settings for canCancelRequests: true
+I0224 01:49:56.141627   14070 configuration.go:286] Configured settings for contextPromptOpts: &{Endpoint:}
+W0224 01:49:56.148328   14070 configuration.go:290] Failed to retrieve verboseLogging: configuration value not is not a string: false
+W0224 01:49:56.148380   14070 configuration.go:792] ignoring configuration value "ragl.maxFileSearchDepth" with type int, need float64
+W0224 01:49:56.148402   14070 configuration.go:792] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W0224 01:49:56.148413   14070 configuration.go:792] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I0224 01:49:56.260978   14070 experiments.go:154] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I0224 01:49:56.261012   14070 experiments.go:198] Applied experiment flag "DuetAiLocalRag__include_doc_files" to includeDocFiles with value false
+I0224 01:49:56.261024   14070 experiments.go:202] Applied experiment flag "DuetAiLocalRag__include_unit_test_files" to includeUnitTestFile with value false
+I0224 01:49:56.261041   14070 experiments.go:119] Applied experiment flag "DuetAiCloudCodeAPI__enable_cloudcode_api" to useCloudCodeAPI with value true
+I0224 01:49:56.261072   14070 experiments.go:135] Applied experiment flag "DuetAiProcessors__enable_prompt_recitations_check" to cloudCodeOpts.EnablePromptEnhancement with value true
+I0224 01:49:56.261096   14070 experiments.go:147] Applied experiment flag "GcaCitationBlock__enable_citation_block" to cloudCodeOpts.EnableAdminCitationBlock with value false
+I0224 01:49:56.261125   14070 experiments.go:139] Applied experiment flag "DuetAICodeTransform__display_prompt_recitations" to cloudCodeOpts.EnablePromptEnhancementForTransform with value true
+I0224 01:49:56.261139   14070 experiments.go:158] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I0224 01:49:56.261156   14070 experiments.go:143] Applied experiment flag "Chat__display_prompt_recitations" to cloudCodeOpts.EnablePromptEnhancementForChat with value true
+I0224 01:49:56.261173   14070 experiments.go:162] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I0224 01:49:56.261193   14070 experiments.go:111] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I0224 01:49:56.261213   14070 experiments.go:206] Applied experiment flag "DuetAiLocalRag__max_file_search_depth" to maxFileSearchDepth with value 2
+I0224 01:49:56.261231   14070 experiments.go:186] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I0224 01:49:56.261240   14070 experiments.go:166] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I0224 01:49:56.261248   14070 experiments.go:115] Applied experiment flag "Chat__fca_chat_context_window_size" to chat.fcaContextWindowSize with value 450000
+I0224 01:49:56.261266   14070 experiments.go:218] Applied experiment flag "DuetAiLocalRag__top_k_doc_files_to_include" to topKDocFilesToInclude with value 2
+I0224 01:49:56.261306   14070 experiments.go:222] Applied experiment flag "DuetAiLocalRag__top_k_test_files_to_include" to topKTestFilesToInclude with value 2
+I0224 01:49:56.261321   14070 experiments.go:127] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 300
+I0224 01:49:56.261337   14070 experiments.go:107] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I0224 01:49:56.261357   14070 experiments.go:182] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I0224 01:49:56.261382   14070 experiments.go:226] Applied experiment flag "DuetAiLocalRag__local_rag_reranking_by_language" to localRAGRerankingByLanguageParam with value 0
+I0224 01:49:56.261397   14070 experiments.go:123] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -4.1
+I0224 01:49:56.261413   14070 experiments.go:170] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I0224 01:49:56.261425   14070 experiments.go:174] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 524288
+I0224 01:49:56.261436   14070 experiments.go:178] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I0224 01:49:56.261449   14070 experiments.go:190] Extracted experiment flag "DuetAiRemoteRag__multi_query_tail_ns_for_completion" to multiQueryTailNS with value []
+I0224 01:49:56.261473   14070 experiments.go:194] Extracted experiment flag "DuetAiRemoteRag__multi_query_tail_ns_for_generation" to multiQueryTailNS with value []
+I0224 01:49:56.261494   14070 experiments.go:210] Applied experiment flag "DuetAiLocalRag__substrings_to_identify_doc_prompts" to substringsToIdentifyDocPrompts with value [document comment]
+I0224 01:49:56.261526   14070 experiments.go:214] Applied experiment flag "DuetAiLocalRag__substrings_to_identify_test_prompts" to substringsToIdentifyTestPrompts with value [test]
+W0224 01:49:56.261549   14070 configuration.go:792] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W0224 01:49:56.261558   14070 configuration.go:792] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I0224 01:49:56.261590   14070 configuration.go:468] Repopulating context cache from document cache
+I0224 01:49:56.261692   14070 cloudcode.go:43] Using Cloud Code API
+I0224 01:49:56.262683   14070 client.go:287] CompleteCode request: {"enablePromptEnhancement":true,"ideContext":{"currentFile":{"segments":[{"content":"Code Assist healthcheck id: 9030ac74-cbfb-4a0f-ba8e-67ccbdd316b2\nPi = "},{"isSelected":true},{}]}},"metadata":{"ideType":"CLOUD_SHELL","ideVersion":"1.94.2-cde","platform":"LINUX_AMD64","pluginType":"CLOUD_CODE","pluginVersion":"2.25.0"},"project":"project-cot5930","requestId":"cloudcode-718125841-5e8177ff-e811-4c8e-b017-fc7c31709b45"}
+I0224 01:49:56.265664   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/gemini.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:49:56.265770   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/download.json=map[COLOCATED:COLOCATED]
+I0224 01:49:56.265783   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/README-cloudshell.txt=map[COLOCATED:COLOCATED]
+I0224 01:49:56.265804   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/main.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:49:56.265815   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/requirements.txt=map[COLOCATED:COLOCATED]
+I0224 01:49:56.265823   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/storage.py=map[COLOCATED:COLOCATED]
+I0224 01:49:56.265967   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/requirements.txt=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:49:56.265984   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/main.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:49:56.265996   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/gemini.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:49:56.266005   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/download.json=map[COLOCATED:COLOCATED]
+I0224 01:49:56.266014   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/README-cloudshell.txt=map[COLOCATED:COLOCATED]
+I0224 01:49:56.266023   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/storage.py=map[COLOCATED:COLOCATED]
+I0224 01:49:56.266141   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/download.json=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:49:56.266154   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/README-cloudshell.txt=map[COLOCATED:COLOCATED]
+I0224 01:49:56.266163   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/gemini.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:49:56.266172   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/main.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:49:56.266182   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/requirements.txt=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:49:56.266191   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/storage.py=map[COLOCATED:COLOCATED]
+I0224 01:50:06.228344   14070 client.go:287] CompleteCode request: {"enablePromptEnhancement":true,"ideContext":{"currentFile":{"segments":[{"content":"Code Assist healthcheck id: 9506cdd2-6d38-49f4-a354-02f42c4837fd\nPi = "},{"isSelected":true},{}]}},"metadata":{"ideType":"CLOUD_SHELL","ideVersion":"1.94.2-cde","platform":"LINUX_AMD64","pluginType":"CLOUD_CODE","pluginVersion":"2.25.0"},"project":"project-cot5930","requestId":"cloudcode-718125841-59434270-eca4-4f17-a9f6-d9c0468385fa"}
+I0224 01:50:06.531636   14070 client.go:287] CompleteCode request: {"enablePromptEnhancement":true,"ideContext":{"currentFile":{"segments":[{"content":"Code Assist healthcheck id: 957db5b7-c652-4381-bc03-6d59477c181b\nPi = "},{"isSelected":true},{}]}},"metadata":{"ideType":"CLOUD_SHELL","ideVersion":"1.94.2-cde","platform":"LINUX_AMD64","pluginType":"CLOUD_CODE","pluginVersion":"2.25.0"},"project":"project-cot5930","requestId":"cloudcode-718125841-6a48075f-431e-4c6f-bff5-386dac03b6d2"}
+I0224 01:50:06.821591   14070 conversation.go:123] New conversation started, chat history reset
+I0224 01:50:07.026587   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:50:07.026640   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:50:07.026732   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:50:07.026751   14070 conversation.go:559] Unable to retrieve excluded files for request #9: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:50:07.026780   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:50:07.026803   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:50:07.402142   14070 conversation.go:186] response from ListAgents #&{[]}
+I0224 01:50:19.817811   14070 conversation.go:123] New conversation started, chat history reset
+I0224 01:50:21.521292   14070 conversation.go:123] New conversation started, chat history reset
+I0224 01:50:21.947835   14070 conversation.go:123] New conversation started, chat history reset
+I0224 01:50:22.213481   14070 conversation.go:123] New conversation started, chat history reset
+I0224 01:50:31.000049   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:50:31.000101   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:50:31.000147   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:50:31.000161   14070 conversation.go:559] Unable to retrieve excluded files for request #19: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:50:31.000246   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:50:31.000257   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:50:31.000335   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:50:31.490953   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:50:31.490992   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:50:31.491027   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:50:31.491036   14070 conversation.go:559] Unable to retrieve excluded files for request #24: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:50:31.491114   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:50:31.491120   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:50:31.491171   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+W0224 01:50:32.732276   14070 server.go:633] unknown method "$/setTrace"
+I0224 01:50:32.736616   14070 configuration.go:182] product updateChannel will be used
+W0224 01:50:32.736661   14070 configuration.go:792] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W0224 01:50:32.736675   14070 configuration.go:792] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I0224 01:50:32.736696   14070 configuration.go:642] language thresholds: map[]
+I0224 01:50:32.736744   14070 configuration.go:600] dataFileExtensions array: [.csv .tsv .jsonl]
+I0224 01:50:32.736767   14070 configuration.go:845] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0019c3a31 StopSequences:map[] DataFilePromptLines:0}
+I0224 01:50:32.736799   14070 configuration.go:845] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0019c3a41 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I0224 01:50:32.736839   14070 configuration.go:270] Configured settings for atlasOpts: {"Project":"project-cot5930","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I0224 01:50:32.736855   14070 configuration.go:278] Configured settings for cloudCodeOpts: {"Project":"project-cot5930","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"EnablePromptEnhancementForTransform":false,"EnablePromptEnhancementForChat":false,"EnableAdminCitationBlock":false}
+I0224 01:50:32.736876   14070 configuration.go:282] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0 multiQueryTailNSForCompletion:[] multiQueryTailNSForGeneration:[]} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false ragLRerankByLangBoost:0 raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288 raglIncludeDocFiles:false raglIncludeUnitTestFile:false raglMaxFileSearchDepth:1 substringsToIdentifyTestPrompts:[test] substringsToIdentifyDocPrompts:[document comment] raglTopKTestFilesToInclude:2 raglTopKDocFilesToInclude:2}
+I0224 01:50:32.736916   14070 configuration.go:284] Configured settings for canCancelRequests: true
+I0224 01:50:32.736928   14070 configuration.go:286] Configured settings for contextPromptOpts: &{Endpoint:}
+W0224 01:50:32.737488   14070 configuration.go:290] Failed to retrieve verboseLogging: configuration value not is not a string: false
+I0224 01:50:32.737534   14070 experiments.go:154] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I0224 01:50:32.737552   14070 experiments.go:198] Applied experiment flag "DuetAiLocalRag__include_doc_files" to includeDocFiles with value false
+I0224 01:50:32.737569   14070 experiments.go:202] Applied experiment flag "DuetAiLocalRag__include_unit_test_files" to includeUnitTestFile with value false
+I0224 01:50:32.737585   14070 experiments.go:119] Applied experiment flag "DuetAiCloudCodeAPI__enable_cloudcode_api" to useCloudCodeAPI with value true
+I0224 01:50:32.737611   14070 experiments.go:135] Applied experiment flag "DuetAiProcessors__enable_prompt_recitations_check" to cloudCodeOpts.EnablePromptEnhancement with value true
+I0224 01:50:32.737630   14070 experiments.go:147] Applied experiment flag "GcaCitationBlock__enable_citation_block" to cloudCodeOpts.EnableAdminCitationBlock with value false
+I0224 01:50:32.737655   14070 experiments.go:139] Applied experiment flag "DuetAICodeTransform__display_prompt_recitations" to cloudCodeOpts.EnablePromptEnhancementForTransform with value true
+I0224 01:50:32.737667   14070 experiments.go:158] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I0224 01:50:32.737682   14070 experiments.go:143] Applied experiment flag "Chat__display_prompt_recitations" to cloudCodeOpts.EnablePromptEnhancementForChat with value true
+I0224 01:50:32.737696   14070 experiments.go:162] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I0224 01:50:32.737729   14070 experiments.go:111] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I0224 01:50:32.737747   14070 experiments.go:206] Applied experiment flag "DuetAiLocalRag__max_file_search_depth" to maxFileSearchDepth with value 2
+I0224 01:50:32.737763   14070 experiments.go:186] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I0224 01:50:32.737774   14070 experiments.go:166] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I0224 01:50:32.737789   14070 experiments.go:115] Applied experiment flag "Chat__fca_chat_context_window_size" to chat.fcaContextWindowSize with value 450000
+I0224 01:50:32.737809   14070 experiments.go:218] Applied experiment flag "DuetAiLocalRag__top_k_doc_files_to_include" to topKDocFilesToInclude with value 2
+I0224 01:50:32.737829   14070 experiments.go:222] Applied experiment flag "DuetAiLocalRag__top_k_test_files_to_include" to topKTestFilesToInclude with value 2
+I0224 01:50:32.737842   14070 experiments.go:127] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 300
+I0224 01:50:32.737856   14070 experiments.go:107] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I0224 01:50:32.737887   14070 experiments.go:182] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I0224 01:50:32.737909   14070 experiments.go:226] Applied experiment flag "DuetAiLocalRag__local_rag_reranking_by_language" to localRAGRerankingByLanguageParam with value 0
+I0224 01:50:32.737921   14070 experiments.go:123] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -4.1
+I0224 01:50:32.737937   14070 experiments.go:170] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I0224 01:50:32.737950   14070 experiments.go:174] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 524288
+I0224 01:50:32.737962   14070 experiments.go:178] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I0224 01:50:32.737977   14070 experiments.go:190] Extracted experiment flag "DuetAiRemoteRag__multi_query_tail_ns_for_completion" to multiQueryTailNS with value []
+I0224 01:50:32.738002   14070 experiments.go:194] Extracted experiment flag "DuetAiRemoteRag__multi_query_tail_ns_for_generation" to multiQueryTailNS with value []
+I0224 01:50:32.738021   14070 experiments.go:210] Applied experiment flag "DuetAiLocalRag__substrings_to_identify_doc_prompts" to substringsToIdentifyDocPrompts with value [document comment]
+I0224 01:50:32.738044   14070 experiments.go:214] Applied experiment flag "DuetAiLocalRag__substrings_to_identify_test_prompts" to substringsToIdentifyTestPrompts with value [test]
+W0224 01:50:32.738075   14070 configuration.go:792] ignoring configuration value "ragl.topKTestFilesToInclude" with type float64, need int
+W0224 01:50:32.738085   14070 configuration.go:792] ignoring configuration value "ragl.topKDocFilesToInclude" with type float64, need int
+I0224 01:50:32.738101   14070 configuration.go:468] Repopulating context cache from document cache
+I0224 01:50:32.741671   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/gemini.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:50:32.741721   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/download.json=map[COLOCATED:COLOCATED]
+I0224 01:50:32.741757   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/README-cloudshell.txt=map[COLOCATED:COLOCATED]
+I0224 01:50:32.741767   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/main.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:50:32.741778   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/requirements.txt=map[COLOCATED:COLOCATED]
+I0224 01:50:32.741788   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/storage.py=map[COLOCATED:COLOCATED]
+I0224 01:50:32.741916   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/requirements.txt=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:50:32.741936   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/main.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:50:32.741947   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/gemini.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:50:32.741956   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/download.json=map[COLOCATED:COLOCATED]
+I0224 01:50:32.741964   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/README-cloudshell.txt=map[COLOCATED:COLOCATED]
+I0224 01:50:32.741972   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/storage.py=map[COLOCATED:COLOCATED]
+I0224 01:50:32.742082   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/download.json=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:50:32.742092   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/README-cloudshell.txt=map[COLOCATED:COLOCATED]
+I0224 01:50:32.742100   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/gemini.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:50:32.742109   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/main.py=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:50:32.742117   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/requirements.txt=map[COLOCATED:COLOCATED CURRENTLY_OPEN:CURRENTLY_OPEN]
+I0224 01:50:32.742126   14070 rag_cache.go:278] After updateCache: file:///home/leozhontai561/storage.py=map[COLOCATED:COLOCATED]
+I0224 01:50:56.784839   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:50:56.784889   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:50:56.784923   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:50:56.784933   14070 conversation.go:559] Unable to retrieve excluded files for request #26: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:50:56.785003   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:50:56.785010   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:50:56.785064   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:51:00.262587   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:51:00.262637   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:51:00.262679   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:51:00.262693   14070 conversation.go:559] Unable to retrieve excluded files for request #30: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:51:00.262786   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:51:00.262797   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:51:00.262858   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:51:01.043950   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:51:01.043999   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:51:01.044043   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:51:01.044056   14070 conversation.go:559] Unable to retrieve excluded files for request #33: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:51:01.044101   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:51:01.044111   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:51:01.044173   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:51:25.797478   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:51:25.797545   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:51:25.797598   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:51:25.797611   14070 conversation.go:559] Unable to retrieve excluded files for request #38: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:51:25.797640   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:51:25.797649   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:51:53.465026   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:51:53.465078   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:51:53.465124   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:51:53.465139   14070 conversation.go:559] Unable to retrieve excluded files for request #42: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:51:53.465264   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:51:53.465275   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:51:53.465350   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:51:54.331827   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:51:54.331881   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:51:54.331960   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:51:54.331976   14070 conversation.go:559] Unable to retrieve excluded files for request #46: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:51:54.332034   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:51:54.332044   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:51:54.332107   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:01.028323   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:01.028383   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:01.028424   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:01.028444   14070 conversation.go:559] Unable to retrieve excluded files for request #49: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:01.028480   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:01.028488   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:01.028535   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:09.086791   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:09.086846   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:09.086889   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:09.086900   14070 conversation.go:559] Unable to retrieve excluded files for request #53: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:09.086972   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:09.086984   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:09.087124   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:09.890477   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:09.890521   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:09.890564   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:09.890585   14070 conversation.go:559] Unable to retrieve excluded files for request #55: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:09.890648   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:09.890657   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:09.890762   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:10.735352   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:10.735403   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:10.735448   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:10.735463   14070 conversation.go:559] Unable to retrieve excluded files for request #58: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:10.735531   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:10.735541   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:10.735612   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:13.075179   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:13.075266   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:13.075301   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:13.075319   14070 conversation.go:559] Unable to retrieve excluded files for request #82: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:13.075407   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:13.075419   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:13.075497   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:13.869364   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:13.869409   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:13.869453   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:13.869466   14070 conversation.go:559] Unable to retrieve excluded files for request #84: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:13.869557   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:13.869570   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:13.869649   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:14.307870   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:14.307921   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:14.307966   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:14.307980   14070 conversation.go:559] Unable to retrieve excluded files for request #86: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:14.308047   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:14.308058   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:14.308127   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:14.822044   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:14.822096   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:14.822138   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:14.822151   14070 conversation.go:559] Unable to retrieve excluded files for request #88: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:14.822292   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:14.822320   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:14.822394   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:15.282387   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:15.282439   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:15.282485   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:15.282503   14070 conversation.go:559] Unable to retrieve excluded files for request #90: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:15.282565   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:15.282575   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:15.282647   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:15.825674   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:15.825750   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:15.825793   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:15.825804   14070 conversation.go:559] Unable to retrieve excluded files for request #92: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:15.825868   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:15.825877   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:15.825940   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+Completion Provider - completion # 0 - New completion requested from language client at position {"line":45,"character":9}, triggerKind=1
+I0224 01:52:23.683236   14070 document.go:425] OtherEditType (ADD), returning ReasonRecentlyEdited
+I0224 01:52:23.742586   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:23.742632   14070 document.go:425] OtherEditType (ADD), returning ReasonRecentlyEdited
+I0224 01:52:23.742682   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:23.742696   14070 conversation.go:559] Unable to retrieve excluded files for request #96: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:23.742799   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:23.742810   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:23.742886   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:23.958087   14070 handler.go:159] cancel was requested for: 95, needs to be canceled: true
+Completion Provider - completion # 1 - New completion requested from language client at position {"line":45,"character":10}, triggerKind=1
+I0224 01:52:24.024049   14070 document.go:425] OtherEditType (ADD), returning ReasonRecentlyEdited
+I0224 01:52:24.057582   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:24.057631   14070 document.go:425] OtherEditType (ADD), returning ReasonRecentlyEdited
+I0224 01:52:24.057683   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:24.057697   14070 conversation.go:559] Unable to retrieve excluded files for request #100: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:24.057797   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:24.057812   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:24.057889   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:24.324816   14070 completion.go:233] Inline suggestion requested (request #99): {TextDocumentPositionParams:{TextDocument:{URI:file:///home/leozhontai561/main.py} Position:{Line:45 Character:10}} TriggerMode:0 IDESessionIndex:20250224_3 CompletionIndex:1}
+Completion Provider - completion # 1 - Completion result obtained from language client
+Completion Provider - completion # 2 - New completion requested from language client at position {"line":45,"character":11}, triggerKind=1
+I0224 01:52:25.038903   14070 document.go:425] OtherEditType (ADD), returning ReasonRecentlyEdited
+I0224 01:52:25.098985   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:25.099027   14070 document.go:425] OtherEditType (ADD), returning ReasonRecentlyEdited
+I0224 01:52:25.099065   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:25.099080   14070 conversation.go:559] Unable to retrieve excluded files for request #105: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:25.099151   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:25.099162   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:25.099234   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:25.339684   14070 completion.go:233] Inline suggestion requested (request #104): {TextDocumentPositionParams:{TextDocument:{URI:file:///home/leozhontai561/main.py} Position:{Line:45 Character:11}} TriggerMode:0 IDESessionIndex:20250224_3 CompletionIndex:2}
+Completion Provider - completion # 2 - Completion result obtained from language client
+Completion Provider - completion # 3 - New completion requested from language client at position {"line":45,"character":10}, triggerKind=1
+I0224 01:52:37.604941   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:37.653343   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:37.653391   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:37.653433   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:37.653450   14070 conversation.go:559] Unable to retrieve excluded files for request #111: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:37.653544   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:37.653561   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:37.653639   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:37.748100   14070 handler.go:159] cancel was requested for: 110, needs to be canceled: true
+Completion Provider - completion # 4 - New completion requested from language client at position {"line":45,"character":9}, triggerKind=1
+I0224 01:52:37.799963   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:37.848175   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:37.848228   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:37.848280   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:37.848294   14070 conversation.go:559] Unable to retrieve excluded files for request #114: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:37.848357   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:37.848374   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:37.848477   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:38.100797   14070 completion.go:233] Inline suggestion requested (request #113): {TextDocumentPositionParams:{TextDocument:{URI:file:///home/leozhontai561/main.py} Position:{Line:45 Character:9}} TriggerMode:0 IDESessionIndex:20250224_3 CompletionIndex:4}
+Completion Provider - completion # 4 - Completion result obtained from language client
+Completion Provider - completion # 5 - New completion requested from language client at position {"line":45,"character":8}, triggerKind=1
+I0224 01:52:38.267187   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:38.316966   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:38.317036   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:38.317083   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:38.317100   14070 conversation.go:559] Unable to retrieve excluded files for request #118: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:38.317181   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:38.317190   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:38.317269   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:38.567949   14070 completion.go:233] Inline suggestion requested (request #117): {TextDocumentPositionParams:{TextDocument:{URI:file:///home/leozhontai561/main.py} Position:{Line:45 Character:8}} TriggerMode:0 IDESessionIndex:20250224_3 CompletionIndex:5}
+Completion Provider - completion # 5 - Completion result obtained from language client
+I0224 01:52:41.439150   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:41.439210   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:41.439265   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:41.439279   14070 conversation.go:559] Unable to retrieve excluded files for request #125: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:41.439351   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:41.439363   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:41.439466   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+Completion Provider - completion # 6 - New completion requested from language client at position {"line":42,"character":9}, triggerKind=1
+I0224 01:52:42.198512   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:42.261435   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:42.261483   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:42.261526   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:42.261556   14070 conversation.go:559] Unable to retrieve excluded files for request #129: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:42.261645   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:42.261655   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:42.261761   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:42.396945   14070 handler.go:159] cancel was requested for: 128, needs to be canceled: true
+Completion Provider - completion # 7 - New completion requested from language client at position {"line":42,"character":8}, triggerKind=1
+I0224 01:52:42.450063   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:42.496475   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:42.496531   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:42.496579   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:42.496593   14070 conversation.go:559] Unable to retrieve excluded files for request #132: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:42.496656   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:42.496666   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:42.496766   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:42.750537   14070 completion.go:233] Inline suggestion requested (request #131): {TextDocumentPositionParams:{TextDocument:{URI:file:///home/leozhontai561/main.py} Position:{Line:42 Character:8}} TriggerMode:0 IDESessionIndex:20250224_3 CompletionIndex:7}
+Completion Provider - completion # 7 - Completion result obtained from language client
+I0224 01:52:43.693690   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:43.693762   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:43.693815   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:43.693832   14070 conversation.go:559] Unable to retrieve excluded files for request #135: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:43.693906   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:43.693917   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:43.693993   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+Completion Provider - completion # 8 - New completion requested from language client at position {"line":42,"character":8}, triggerKind=1
+I0224 01:52:43.962048   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:44.013591   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:44.013643   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:44.013680   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:44.013693   14070 conversation.go:559] Unable to retrieve excluded files for request #139: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:44.013794   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:44.013804   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:44.013874   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:44.262819   14070 completion.go:233] Inline suggestion requested (request #138): {TextDocumentPositionParams:{TextDocument:{URI:file:///home/leozhontai561/main.py} Position:{Line:42 Character:8}} TriggerMode:0 IDESessionIndex:20250224_3 CompletionIndex:8}
+Completion Provider - completion # 8 - Completion result obtained from language client
+I0224 01:52:45.871598   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:45.871646   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:45.871688   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:45.871700   14070 conversation.go:559] Unable to retrieve excluded files for request #146: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:45.871776   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:45.871786   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:45.871855   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:52:46.909842   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:52:46.909884   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:52:46.909927   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:52:46.909937   14070 conversation.go:559] Unable to retrieve excluded files for request #148: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:52:46.909978   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:52:46.909988   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:52:46.910044   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:53:18.822571   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:53:18.822614   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:53:18.822649   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:53:18.822659   14070 conversation.go:559] Unable to retrieve excluded files for request #151: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:53:18.822783   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:53:18.822796   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:53:18.822866   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:53:18.978338   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:53:18.978379   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:53:18.978413   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:53:18.978424   14070 conversation.go:559] Unable to retrieve excluded files for request #153: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:53:18.978462   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:53:18.978469   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:53:18.978518   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:53:19.128396   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:53:19.128436   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:53:19.128561   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:53:19.128588   14070 conversation.go:559] Unable to retrieve excluded files for request #155: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:53:19.128646   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:53:19.128657   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:53:19.128745   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:53:19.274864   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:53:19.274904   14070 document.go:421] NoneEditType, returning ReasonRecentlyOpened
+I0224 01:53:19.274940   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:53:19.274956   14070 conversation.go:559] Unable to retrieve excluded files for request #157: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:53:19.275003   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:53:19.275011   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:53:19.275071   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+E0224 01:53:20.299968   14070 retention.go:641] Failed to get offsets at range due to: end offset: invalid column number
+E0224 01:53:20.300008   14070 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:53:20.300022   14070 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:53:20.300031   14070 retention.go:641] Failed to get offsets at range due to: start offset: invalid column number
+E0224 01:53:20.300039   14070 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0224 01:53:20.300046   14070 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0224 01:53:20.300054   14070 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0224 01:53:20.300061   14070 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0224 01:53:20.300068   14070 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0224 01:53:20.300075   14070 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+E0224 01:53:20.300084   14070 retention.go:641] Failed to get offsets at range due to: start offset: invalid line number
+W0224 01:53:20.300101   14070 retention.go:173] Could not get offsets for range in document. range: &{{6 19} {6 25}}, error: invalid column number
+W0224 01:53:20.300123   14070 retention.go:173] Could not get offsets for range in document. range: &{{6 31} {15 0}}, error: invalid column number
+W0224 01:53:20.300130   14070 retention.go:173] Could not get offsets for range in document. range: &{{18 67} {23 39}}, error: invalid column number
+W0224 01:53:20.300137   14070 retention.go:173] Could not get offsets for range in document. range: &{{35 11} {35 15}}, error: invalid column number
+W0224 01:53:20.300142   14070 retention.go:173] Could not get offsets for range in document. range: &{{39 37} {39 41}}, error: invalid line number
+W0224 01:53:20.300149   14070 retention.go:173] Could not get offsets for range in document. range: &{{40 15} {40 28}}, error: invalid line number
+W0224 01:53:20.300155   14070 retention.go:173] Could not get offsets for range in document. range: &{{40 33} {44 0}}, error: invalid line number
+W0224 01:53:20.300160   14070 retention.go:173] Could not get offsets for range in document. range: &{{48 2} {48 3}}, error: invalid line number
+W0224 01:53:20.300165   14070 retention.go:173] Could not get offsets for range in document. range: &{{51 15} {53 34}}, error: invalid line number
+W0224 01:53:20.300170   14070 retention.go:173] Could not get offsets for range in document. range: &{{55 4} {55 5}}, error: invalid line number
+W0224 01:53:20.300175   14070 retention.go:173] Could not get offsets for range in document. range: &{{55 35} {55 71}}, error: invalid line number
+W0224 01:53:20.300188   14070 document.go:267] Error computing chars added only: getting byte offset for end of change range: invalid line number
+I0224 01:53:20.373400   14070 conversation.go:522] Starting getChatIDEContext with detected intent: 
+I0224 01:53:20.373443   14070 document.go:425] OtherEditType (UNKNOWN_EDIT), returning ReasonRecentlyEdited
+I0224 01:53:20.373560   14070 ide_context.go:131] Unable to read file at /home/leozhontai561/.aiexclude
+/home/leozhontai561
+file:///home/leozhontai561
+I0224 01:53:20.373602   14070 conversation.go:559] Unable to retrieve excluded files for request #160: open /home/leozhontai561/.aiexclude: no such file or directory
+I0224 01:53:20.373640   14070 rag_cache.go:821] Retrieving and scoring colocated and open files
+I0224 01:53:20.373653   14070 rag_cache.go:851] rerankByLangBoost=0
+I0224 01:53:20.373738   14070 document.go:425] OtherEditType (DELETE), returning ReasonRecentlyEdited
+I0224 01:53:46.543478   14070 life_cycle.go:297] codeReportEvery: recomputing codereport metric

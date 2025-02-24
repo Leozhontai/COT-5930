@@ -1,0 +1,123 @@
+2025-02-24 01:54:37.418 [warning] Dir "/home/leozhontai561/.pixi/envs" is not watchable (directory does not exist)
+2025-02-24 01:54:37.480 [info] Python interpreter path: ./venv/bin/python
+2025-02-24 01:54:37.702 [info] > pyenv which python
+2025-02-24 01:54:37.703 [info] cwd: .
+2025-02-24 01:54:42.096 [info] Starting Jedi language server for leozhontai561.
+2025-02-24 01:54:43.362 [info] Send text to terminal: source /home/leozhontai561/venv/bin/activate
+2025-02-24 01:56:13.338 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-24 01:56:18.032 [info] Running installed packages checker:  {
+  id: '/home/leozhontai561/venv/bin/python',
+  sysPrefix: '/home/leozhontai561/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/home/leozhontai561/venv',
+  path: '/home/leozhontai561/venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 17 2025, 18:03:48) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv': venv)",
+  type: 'Virtual'
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/leozhontai561/requirements.txt
+2025-02-24 01:56:18.033 [info] > ./venv/bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-02-24 01:56:18.104 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-24 01:56:42.278 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-24 01:57:05.254 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-24 01:57:38.276 [info] Running installed packages checker:  {
+  id: '/home/leozhontai561/venv/bin/python',
+  sysPrefix: '/home/leozhontai561/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/home/leozhontai561/venv',
+  path: '/home/leozhontai561/venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 17 2025, 18:03:48) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv': venv)",
+  type: 'Virtual'
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/leozhontai561/requirements.txt
+2025-02-24 01:57:38.276 [info] > ./venv/bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-02-24 02:03:16.576 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/gemini.py
+2025-02-24 02:03:48.694 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-24 02:06:26.231 [info] Discover tests for workspace name: leozhontai561 - uri: /home/leozhontai561/main.py
+2025-02-24 02:10:39.552 [info] Running installed packages checker:  {
+  id: '/home/leozhontai561/venv/bin/python',
+  sysPrefix: '/home/leozhontai561/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/home/leozhontai561/venv',
+  path: '/home/leozhontai561/venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 17 2025, 18:03:48) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv': venv)",
+  type: 'Virtual'
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/leozhontai561/requirements.txt
+2025-02-24 02:10:39.552 [info] > ./venv/bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-02-24 02:10:44.516 [info] Running installed packages checker:  {
+  id: '/home/leozhontai561/venv/bin/python',
+  sysPrefix: '/home/leozhontai561/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/home/leozhontai561/venv',
+  path: '/home/leozhontai561/venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 17 2025, 18:03:48) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv': venv)",
+  type: 'Virtual'
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/leozhontai561/requirements.txt
+2025-02-24 02:10:44.516 [info] > ./venv/bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-02-24 02:10:46.340 [info] Running installed packages checker:  {
+  id: '/home/leozhontai561/venv/bin/python',
+  sysPrefix: '/home/leozhontai561/venv',
+  envType: 'Venv',
+  envName: 'venv',
+  envPath: '/home/leozhontai561/venv',
+  path: '/home/leozhontai561/venv/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jan 17 2025, 18:03:48) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.12.3 ('venv')",
+  detailedDisplayName: "Python 3.12.3 ('venv': venv)",
+  type: 'Virtual'
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/leozhontai561/requirements.txt
+2025-02-24 02:10:46.341 [info] > ./venv/bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt

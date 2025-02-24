@@ -1,0 +1,52 @@
+2025-02-24 01:54:36.697 [info] Extension host with pid 14893 started
+2025-02-24 01:54:36.713 [info] Lock '/home/leozhontai561/.codeoss/data/User/workspaceStorage/-4f52639f/vscode.lock': Lock acquired.
+2025-02-24 01:54:36.950 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-24 01:54:36.951 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-02-24 01:54:37.379 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-24 01:54:37.470 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-24 01:54:37.540 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-24 01:54:37.540 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-24 01:54:37.753 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt,**/build.gradle,**/Dockerfile,**/Containerfile'
+2025-02-24 01:54:38.107 [info] Eager extensions activated
+2025-02-24 01:54:38.108 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-02-24 01:54:38.108 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-02-24 01:54:38.108 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-02-24 01:54:38.109 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-24 01:54:38.109 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-24 01:54:39.554 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-24 01:54:41.694 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-24 01:54:41.695 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-24 01:54:41.695 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-24 01:54:48.437 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1535
+2025-02-24 01:54:48.802 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-24 01:54:50.844 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1536
+2025-02-24 01:56:06.176 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1537
+2025-02-24 01:56:12.801 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1537
+2025-02-24 01:56:19.601 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1539
+2025-02-24 01:56:35.314 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1537
+2025-02-24 01:56:42.028 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1538
+2025-02-24 01:56:51.352 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1538
+2025-02-24 01:57:00.060 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1537
+2025-02-24 01:57:06.736 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1538
+2025-02-24 01:57:35.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1537
+2025-02-24 01:57:58.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1538
+2025-02-24 02:01:57.121 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1538
+2025-02-24 02:02:06.852 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1380
+2025-02-24 02:03:12.414 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1380
+2025-02-24 02:03:19.041 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1381
+2025-02-24 02:03:27.668 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1380
+2025-02-24 02:03:43.085 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1380
+2025-02-24 02:03:49.740 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1381
+2025-02-24 02:06:01.353 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1866
+2025-02-24 02:06:08.016 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1860
+2025-02-24 02:06:22.031 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1860
+2025-02-24 02:10:36.113 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1862
+2025-02-24 02:10:42.762 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1862
+2025-02-24 02:10:49.432 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1862
+2025-02-24 02:12:03.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1864
+2025-02-24 02:12:11.890 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1864
+2025-02-24 02:12:18.556 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1864
+2025-02-24 02:12:25.174 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1864
