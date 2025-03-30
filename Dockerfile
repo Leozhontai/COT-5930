@@ -2,15 +2,16 @@ FROM python:3.10-slim-buster
 
 WORKDIR /app
 
-# Copy requirements and install dependencies
+# Install dependencies
 COPY requirements.txt requirements.txt
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-# Copy all other files in the current folder
+# Copy your application code
 COPY . .
 
-# Expose port Cloud Run expects
+# Expose the port Cloud Run uses
 EXPOSE 8080
 
-# Start your Flask app
-CMD ["python3", "app.py"]
+# Start the Flask app using main.py
+CMD ["python3", "main.py"]
+
