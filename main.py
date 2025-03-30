@@ -54,17 +54,19 @@ app = Flask(__name__)
 def index():
     """Displays a gallery of uploaded images as thumbnails instead of filenames."""
     index_html = """
-    <body style="background-color: blue; color: white; font-family: Arial; text-align: center; padding: 20px;">
+    <body style="background-color: blue; color: white; font-family: Arial; padding: 20px;">
     <h2>Upload and View Images</h2>
+    <div style="text-align: left;">
     <form method="post" enctype="multipart/form-data" action="/upload">
       <div>
         <label for="file">Choose file to upload:</label>
         <input type="file" id="file" name="form_file" accept="image/jpeg"/>
       </div>
-      <div>
+      <div style="margin-top: 10px;">
         <button>Submit</button>
       </div>
     </form>
+    </div>
     <h3>Uploaded Images:</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 15px;">
     """
@@ -161,6 +163,7 @@ def get_file(filename):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+
 
 
 
