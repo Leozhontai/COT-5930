@@ -54,6 +54,7 @@ app = Flask(__name__)
 def index():
     """Displays a gallery of uploaded images as thumbnails instead of filenames."""
     index_html = """
+    <body style="background-color: blue; color: white; font-family: Arial; text-align: center; padding: 20px;">
     <h2>Upload and View Images</h2>
     <form method="post" enctype="multipart/form-data" action="/upload">
       <div>
@@ -85,7 +86,7 @@ def index():
             </div>
             '''
 
-    index_html += "</div>"
+       index_html += "</div></body>"
     return index_html
 
 @app.route('/upload', methods=["POST"])
