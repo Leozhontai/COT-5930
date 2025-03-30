@@ -158,8 +158,9 @@ def get_file(filename):
         print(f"❌ Error serving file: {e}")
         return abort(500, description="Error retrieving file.")
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080, debug=True)
+
 
 
 
