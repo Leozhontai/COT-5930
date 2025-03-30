@@ -86,7 +86,7 @@ def index():
             </div>
             '''
 
-       index_html += "</div></body>"
+    index_html += "</div></body>"
     return index_html
 
 @app.route('/upload', methods=["POST"])
@@ -161,6 +161,7 @@ def get_file(filename):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+
 
 
 
