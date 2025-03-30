@@ -1,21 +1,21 @@
 import os
 import google.generativeai as genai
 import json
-import re  # Import regex for extracting valid JSON
+import re
 
-# Configure Gemini AI API key
+# Configure Gemini API key safely
 API_KEY = os.getenv("GEMINI_API")
-if not API_KEY:
-    raise ValueError("❌ ERROR: GEMINI_API key is not set. Run 'export GEMINI_API=\"your-api-key\"'.")
 
-genai.configure(api_key=API_KEY)
+if API_KEY:
+    genai.configure(api_key=API_KEY)
+else:
+    print("⚠️ WARNING: GEMINI_API key is not set. AI features will not work.")
 
-# Define the Gemini model
-model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
-)
+# Define Gemini model (only if key exists)
+model = None
+if API_KEY:
+    model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
-# Define the structured prompt to enforce proper JSON response
 PROMPT = """Analyze the given image and respond ONLY in JSON format.
 Ensure the response follows this exact structure:
 
@@ -27,18 +27,20 @@ Ensure the response follows this exact structure:
 DO NOT include any extra text, explanations, or formatting—only return a valid JSON object.
 """
 
-# Increase timeout to prevent gRPC errors
 generation_config = {
   "temperature": 1,
   "top_p": 0.95,
   "top_k": 64,
   "max_output_tokens": 8192,
   "response_mime_type": "application/json",
-  "timeout_millis": 60000  # Increase timeout to 60 seconds
+  "timeout_millis": 60000
 }
 
 def upload_to_gemini(path, mime_type="image/jpeg"):
-    """Uploads an image to Gemini AI and returns a file reference."""
+    if not API_KEY:
+        print("❌ ERROR: Gemini API key is missing. Cannot upload image.")
+        return None
+
     if not os.path.exists(path):
         print(f"❌ ERROR: File '{path}' not found.")
         return None
@@ -52,27 +54,28 @@ def upload_to_gemini(path, mime_type="image/jpeg"):
         return None
 
 def generate_image_metadata(image_path):
-    """Uploads an image and gets a structured JSON response with title & description."""
-    gemini_file = upload_to_gemini(image_path)
+    if not API_KEY:
+        print("❌ ERROR: Gemini API key not set. Cannot generate metadata.")
+        return None
 
+    if model is None:
+        print("❌ ERROR: Gemini model not configured.")
+        return None
+
+    gemini_file = upload_to_gemini(image_path)
     if gemini_file is None:
         return None
 
     try:
         response = model.generate_content([gemini_file, "\n\n", PROMPT])
-
-        # Debugging: Print raw API response
         print(f"\n🔍 Gemini API Raw Response:\n{response.text}")
-
-        # Extract only the valid JSON part using regex
         json_match = re.search(r"\{.*\}", response.text, re.DOTALL)
         if not json_match:
             print("❌ ERROR: No valid JSON detected in response.")
             return None
 
-        clean_json = json_match.group(0)  # Extract matched JSON part
-        metadata_json = json.loads(clean_json)  # Convert to Python dict
-
+        clean_json = json_match.group(0)
+        metadata_json = json.loads(clean_json)
         print(f"✅ Parsed JSON:\n{metadata_json}")
         return metadata_json
 
